@@ -16,6 +16,7 @@ from html import unescape
 from typing import Optional
 import update as legacy
 from public_metrics import spotify_top_monthly, chartmasters_metrics
+from metrika_metrics import collect as collect_metrika
 
 ARTISTS={
  'blackpink':('BLACKPINK','41MozSoPIsD1dJM0CLPjZF','blackpink'),
@@ -93,6 +94,24 @@ def read_followers_batch(all_artists):
     NOTES.append(k+' - API Spotify sem campo followers (restrição de 2026)')
   except Exception as error:
    NOTES.append(k+' - API Spotify: '+str(error))
+
+def read_metrika(people):
+ ids={key:aid for key,(_,aid,_) in ARTISTS.items()}
+ results=collect_metrika(ids)
+ if results is None:
+  print('Metrika: sem token, mantendo valores anteriores')
+  return
+ if not results:
+  print('Metrika: nenhum dado disponível ainda; coleta poderá estar pendente')
+ for key,metrics in results.items():
+  for metric,item in metrics.items():
+   old=people[key].get('metrics',{}).get(metric)
+   if old and old.get('date','')>item['date']:
+    continue
+   if old and old.get('date')==item['date'] and old.get('source')=='Spotify (app, conferência manual)':
+    continue
+   legacy.update_metric(people[key],metric,item['value'],item['date'],item['source'],approximate=False)
+   print('Metrika',key,metric,item['value'],item['date'])
 
 def detect_artist_and_song(text):
  # A célula do Kworb tem formato "Artist - Song". Usamos o mesmo escopo
@@ -185,7 +204,9 @@ def main():
    safe(k,'músicas',legacy.read_kworb_songs,people[k]);time.sleep(.7)
    safe(k,'álbuns',legacy.read_kworb_albums,people[k]);time.sleep(.7)
    safe(k,'ouvintes',read_listeners,k,people[k]);time.sleep(.7)
- if args.mode in ('daily','all'):safe('spotify','seguidores API',read_followers_batch,people)
+ if args.mode in ('daily','all'):
+  safe('spotify','seguidores API',read_followers_batch,people)
+  safe('metrika','seguidores e ouvintes',read_metrika,people)
  period='weekly' if args.mode=='weekly' else 'daily'
  old_charts=get('charts-history-all',[])
  indexed={(c.get('artistKey','blackpink'),c.get('date'),c.get('code'),c.get('period'),c.get('title')):c for c in old_charts}
