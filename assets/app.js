@@ -12,10 +12,36 @@ function norm(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/
 function matchTitle(s,expected){const a=norm(s),b=norm(expected);if(a===b)return true;const extra=a.startsWith(b+' ')?a.slice(b.length+1):b.startsWith(a+' ')?b.slice(a.length+1):null;return !!(extra&&/^(feat|ft|featuring|with|from|the game|blackpink the game)/.test(extra))}
 function ver(s){return /(remix|live|japanese|acoustic|instrumental|sped up|slowed| extended|0\.5x|2x\b|just jennie|arena tour|tokyo dome)/i.test(s)}
 function data(k){return st.artists[k]||{metrics:{},songs:[],albums:[],charts:[]}}
+// Se o Kworb nao publicar o total de um EP/single, somamos somente as
+// faixas principais catalogadas. Isso nao representa streams de outras edicoes.
+function albumTotalsFromTracks(k,name){
+ const expected=(st.catalog[k]||{})[name]||[];
+ if(!expected.length)return null;
+ const songs=data(k).songs||[],used=new Set();
+ let total=0,daily=0,matched=0,dailyMatched=0;
+ for(const title of expected){
+  const candidates=songs.map((song,i)=>({song,i})).filter(x=>!used.has(x.i)&&matchTitle(x.song[0],title)&&!ver(x.song[0])&&Number.isFinite(x.song[1]));
+  // Preferir o titulo canonico e a faixa normal, nunca remix/live/instrumental.
+  candidates.sort((a,b)=>(norm(a.song[0])===norm(title)?0:1)-(norm(b.song[0])===norm(title)?0:1)||a.song[0].length-b.song[0].length);
+  if(!candidates.length)continue;
+  const chosen=candidates[0];used.add(chosen.i);
+  total+=chosen.song[1];matched++;
+  if(Number.isFinite(chosen.song[2])){daily+=chosen.song[2];dailyMatched++}
+ }
+ if(!matched)return null;
+ return {total,daily:dailyMatched===matched?daily:null,matched,expected:expected.length,partial:matched<expected.length};
+}
 function artistAlbumEntries(k){const p=data(k),seen=new Set(),out=[];
-  for(const name of Object.keys(st.catalog[k]||{})){const values=(p.albums||[]).filter(a=>norm(a[0])===norm(name));const best=values.sort((a,b)=>b[1]-a[1])[0];out.push({key:k,name,total:best?.[1]??null,daily:best?.[2]??null,count:(st.catalog[k][name]||[]).length,measured:!!best});seen.add(norm(name))}
-  for(const a of p.albums||[]){if(seen.has(norm(a[0])))continue;if(/\b(live|japanese|jp ver|complete edition|complete collection|greatest hits|tour|remix)\b/i.test(a[0]))continue;seen.add(norm(a[0]));out.push({key:k,name:a[0],total:a[1],daily:a[2],count:null,measured:true})}
-  return out;
+ for(const [name,titles] of Object.entries(st.catalog[k]||{})){
+  const values=(p.albums||[]).filter(a=>norm(a[0])===norm(name));
+  const best=values.sort((a,b)=>b[1]-a[1])[0];
+  const sum=best?null:albumTotalsFromTracks(k,name);
+  out.push({key:k,name,total:best?.[1]??sum?.total??null,daily:best?.[2]??sum?.daily??null,
+   count:titles.length,measured:!!best,derived:!!sum,partial:sum?.partial??false,matched:sum?.matched??null});
+  seen.add(norm(name));
+ }
+ for(const a of p.albums||[]){if(seen.has(norm(a[0])))continue;if(/\b(live|japanese|jp ver|complete edition|complete collection|greatest hits|tour|remix)\b/i.test(a[0]))continue;seen.add(norm(a[0]));out.push({key:k,name:a[0],total:a[1],daily:a[2],count:null,measured:true,derived:false,partial:false})}
+ return out;
 }
 function albums(){return (st.artist==='all'?KEY_ORDER:[st.artist]).flatMap(artistAlbumEntries)}
 function albumOf(k,title){for(const [name,titles] of Object.entries(st.catalog[k]||{}))if(titles.some(t=>matchTitle(title,t)))return name;return 'Outras faixas / versões'}
@@ -30,7 +56,7 @@ function selectedAlbum(){if(st.album==='all')return null;const [key,name]=st.alb
 function renderMetrics(){const album=selectedAlbum(),p=st.artist==='all'?null:data(st.artist),pkey=st.artist;
  for(const key of Object.keys(metricNames)){
   let metric=p?.metrics?.[key],val=metric?.value??null,desc=metric?`${when(metric.date)} · ${metric.source||'Fonte'}`:'Sem medição';
-  if(album){if(key==='streams'||key==='dailyStreams'){val=key==='streams'?album.total:album.daily;desc=album.measured?`Álbum · ${when(data(album.key).albumsDate)}`:'Álbum · sem total verificado'}else desc=metric?`Perfil de ${NAMES[pkey]} · ${when(metric.date)}`:'Perfil · sem medição'}
+  if(album){if(key==='streams'||key==='dailyStreams'){val=key==='streams'?album.total:album.daily;desc=album.measured?`Álbum · Kworb · ${when(data(album.key).albumsDate)}`:album.derived?`Soma ${album.matched}/${album.count} faixas · ${when(data(album.key).songsDate)}`:'Álbum · sem total coletado'}else desc=metric?`Perfil de ${NAMES[pkey]} · ${when(metric.date)}`:'Perfil · sem medição'}
   else if(pkey==='all'){desc='Selecione um artista — totais não somados'}
   const change=!album&&pkey!=='all'?lastDiff(pkey,key):null;
   let changeText=change==null?'':` · ${change>=0?'+':''}${num(change)} vs dia anterior`;
@@ -41,20 +67,21 @@ function renderMetrics(){const album=selectedAlbum(),p=st.artist==='all'?null:da
  const dates=(st.artist==='all'?KEY_ORDER:[st.artist]).flatMap(k=>Object.values(data(k).metrics||{}).map(x=>x.date).filter(Boolean)).sort();
  $('#latestDate').textContent='Último registro: '+when(dates.at(-1));
  const notice=$('#notice');if(st.artist==='all'){notice.textContent='Todos os artistas: compare músicas e álbuns; os indicadores não são somados, pois participações podem aparecer em perfis diferentes.';notice.hidden=false}
- else if(album&&(!album.measured)){notice.textContent=`${album.name}: as faixas conhecidas aparecem abaixo, mas ainda não há total de álbum verificado no coletor. Isso não significa zero streams.`;notice.hidden=false}
+ else if(album&&album.derived){notice.textContent=`${album.name}: ${album.partial?'soma parcial':'soma'} de ${album.matched}/${album.count} faixas catalogadas, usando os streams individuais do Kworb. Não é uma contagem oficial separada do álbum.`;notice.hidden=false}
+ else if(album&&!album.measured){notice.textContent=`${album.name}: ainda não há streams suficientes para calcular a soma das faixas. Isso não significa zero streams.`;notice.hidden=false}
  else{notice.hidden=true}
 }
 function fillAlbumPicker(){const selector=$('#albumSelect');const old=st.album;const list=albums();selector.innerHTML='<option value="all">Todos os álbuns / singles</option>'+list.map(a=>`<option value="${esc(a.key+'|'+a.name)}">${st.artist==='all'?esc(NAMES[a.key]+' · '):''}${esc(a.name)}</option>`).join('');if(list.some(a=>a.key+'|'+a.name===old)){selector.value=old}else{st.album='all';selector.value='all'}}
 function topTrackMarkup(t,i){return `<div class="short-item"><span class="rank">${String(i+1).padStart(2,'0')}</span><div style="min-width:0"><div class="short-name" title="${esc(t.title)}">${esc(t.title)}</div><div class="short-meta">${esc(NAMES[t.key])} · ${esc(t.album)}</div></div><div class="short-value" title="${num(t.total)}">${short(t.total)}</div></div>`}
 function renderOverview(){const rows=tracks().filter(t=>!ver(t.title)).sort((a,b)=>b.total-a.total);$('#overviewHeading').textContent=st.album==='all'?'Top músicas':'Faixas do álbum';$('#overviewSub').textContent=st.artist==='all'?'BLACKPINK + as quatro carreiras solo':NAMES[st.artist]+' · '+(selectedAlbum()?.name||'discografia completa');$('#topTracks').innerHTML=rows.slice(0,5).map(topTrackMarkup).join('')||'<div class="empty">Nenhuma faixa disponível com esses filtros.</div>';
-const sorted=albums().sort((a,b)=>(b.total??0)-(a.total??0));$('#albumHighlights').innerHTML=sorted.slice(0,5).map((a,i)=>`<div class="short-item clickable" role="button" tabindex="0" data-pick-album="${esc(a.key+'|'+a.name)}"><span class="rank">${String(i+1).padStart(2,'0')}</span><div style="min-width:0"><div class="short-name">${esc(a.name)}</div><div class="short-meta">${esc(NAMES[a.key])} · ${a.count??'—'} faixas catalogadas</div></div><div class="short-value">${short(a.total)}</div></div>`).join('')||'<div class="empty">Sem álbuns cadastrados.</div>';
+const sorted=albums().sort((a,b)=>(b.total??0)-(a.total??0));$('#albumHighlights').innerHTML=sorted.slice(0,5).map((a,i)=>`<div class="short-item clickable" role="button" tabindex="0" data-pick-album="${esc(a.key+'|'+a.name)}"><span class="rank">${String(i+1).padStart(2,'0')}</span><div style="min-width:0"><div class="short-name">${esc(a.name)}</div><div class="short-meta">${esc(NAMES[a.key])} · ${a.count??'—'} faixas catalogadas${a.derived?' · Σ faixas':''}</div></div><div class="short-value">${short(a.total)}</div></div>`).join('')||'<div class="empty">Sem álbuns cadastrados.</div>';
 $('#overviewStatus').textContent=rows.filter(t=>t.total!=null).length+' músicas com dados · '+albums().length+' lançamentos';
 }
 const PAGE_SIZE=7;
 function renderTracks(){const rows=tracks();const total=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));st.songPage=Math.min(st.songPage,total-1);const slice=rows.slice(st.songPage*PAGE_SIZE,(st.songPage+1)*PAGE_SIZE);$('#songTable').innerHTML=slice.map((t,i)=>`<tr><td class="label-mini">${st.songPage*PAGE_SIZE+i+1}</td><td class="songtitle">${esc(t.title)} <a href="https://open.spotify.com/search/${encodeURIComponent(NAMES[t.key]+' '+t.title)}" target="_blank" rel="noopener" aria-label="Abrir busca no Spotify">↗</a></td><td><div>${esc(NAMES[t.key])}</div><div class="label-mini">${esc(t.album)}</div></td><td class="num">${num(t.total)}</td><td class="num number-pink">${num(t.daily)}</td></tr>`).join('')||'<tr><td colspan="5" class="empty">Nenhuma música encontrada para este álbum ou pesquisa. Datas e dados dependem das fontes.</td></tr>';
 $('#trackCount').textContent=rows.length+' faixas listadas ('+rows.filter(x=>x.total!=null).length+' com streams coletados) · '+(selectedAlbum()?.name||'Todos os lançamentos');$('#songsPageInfo').textContent=`Página ${st.songPage+1} de ${total}`;$('#songPrev').disabled=st.songPage===0;$('#songNext').disabled=st.songPage>=total-1;
 }
-function renderAlbums(){const all=albums();$('#albumCount').textContent=all.length+' lançamentos';$('#albumGrid').innerHTML=all.map(a=>`<button class="album-tile" data-pick-album="${esc(a.key+'|'+a.name)}"><span class="album-icon">♫</span><span class="album-text"><strong title="${esc(a.name)}">${esc(a.name)}</strong><small>${esc(NAMES[a.key])} · ${a.count==null?'catálogo em atualização':a.count+' faixas'}</small><span class="album-count">${short(a.total)} ${a.total==null?'(não coletado)':'streams'}</span></span></button>`).join('')||'<div class="empty">Nenhum álbum encontrado.</div>'}
+function renderAlbums(){const all=albums();$('#albumCount').textContent=all.length+' lançamentos';$('#albumGrid').innerHTML=all.map(a=>`<button class="album-tile" data-pick-album="${esc(a.key+'|'+a.name)}"><span class="album-icon">♫</span><span class="album-text"><strong title="${esc(a.name)}">${esc(a.name)}</strong><small>${esc(NAMES[a.key])} · ${a.count==null?'catálogo em atualização':a.count+' faixas'}</small><span class="album-count">${short(a.total)} ${a.total==null?'(não coletado)':a.derived?'streams · '+(a.partial?'soma parcial':'soma das faixas'):'streams'}</span></span></button>`).join('')||'<div class="empty">Nenhum álbum encontrado.</div>'}
 function allCharts(){const rows=st.charts.length?st.charts:KEY_ORDER.flatMap(k=>(data(k).charts||[]).map(c=>({...c,artistKey:k})));return rows.filter(c=>(st.artist==='all'||c.artistKey===st.artist)&&c.period===st.chartPeriod&&($('#country').value==='ALL'||$('#country').value===c.code)&&(st.album==='all'||c.artistKey===st.album.split('|')[0]&&((st.catalog[c.artistKey]?.[st.album.split('|').slice(1).join('|')]||[]).some(t=>matchTitle(c.title,t))))).sort((a,b)=>(b.date||'').localeCompare(a.date||'')||a.position-b.position)}
 function renderCharts(){const rows=allCharts();const pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));st.chartPage=Math.min(st.chartPage,pages-1);$('#chartTable').innerHTML=rows.slice(st.chartPage*PAGE_SIZE,(st.chartPage+1)*PAGE_SIZE).map(c=>`<tr><td class="label-mini">${when(c.date)}</td><td class="songtitle">${esc(c.title)}<div class="label-mini">${esc(NAMES[c.artistKey]||'BLACKPINK')}</div></td><td>${esc(c.country)}</td><td class="num number-pink">#${num(c.position)}</td><td class="num">${num(c.streams)}</td></tr>`).join('')||'<tr><td colspan="5" class="empty">Nenhuma posição confirmada nos charts selecionados. Isso não significa que as músicas tenham zero streams.</td></tr>';
 $('#chartsPageInfo').textContent=`${rows.length} posições · página ${st.chartPage+1}/${pages}`;$('#chartPrev').disabled=st.chartPage===0;$('#chartNext').disabled=st.chartPage===pages-1;
