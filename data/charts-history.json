@@ -1,3 +1,13 @@
 [
-  {"country":"Coreia do Sul","code":"KR","period":"daily","title":"As If It's Your Last","position":190,"streams":12868,"date":"2026-10-10","source":"Spotify Top"}
+  {
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "As If It's Your Last",
+    "position": 190,
+    "streams": 12868,
+    "date": "2026-10-10",
+    "source": "Spotify Top",
+    "artistKey": "blackpink"
+  }
 ]

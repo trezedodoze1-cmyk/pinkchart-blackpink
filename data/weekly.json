@@ -1,1 +1,17 @@
-{"generated":null,"message":"O primeiro relatório semanal será gerado após ativar as atualizações automáticas.","current":{},"change":{},"charts":[]}
+{
+  "generated": "2026-10-11",
+  "current": {
+    "streams": 17897771431,
+    "dailyStreams": 4299160,
+    "monthlyListeners": 19028664,
+    "followers": 61200000,
+    "tracks": 109
+  },
+  "change": {
+    "streams": null,
+    "dailyStreams": null,
+    "monthlyListeners": null,
+    "followers": null
+  },
+  "charts": []
+}

@@ -1,0 +1,82 @@
+{
+  "generated": "2026-10-11",
+  "artists": {
+    "blackpink": {
+      "change": {
+        "streams": null,
+        "dailyStreams": null,
+        "monthlyListeners": null,
+        "followers": null
+      },
+      "current": {
+        "streams": 17897771431,
+        "dailyStreams": 4299160,
+        "monthlyListeners": 19028664,
+        "followers": 61200000,
+        "tracks": 109
+      },
+      "charts": []
+    },
+    "jennie": {
+      "change": {
+        "streams": null,
+        "dailyStreams": null,
+        "monthlyListeners": null,
+        "followers": null
+      },
+      "current": {
+        "streams": 8740734304,
+        "dailyStreams": 7621156,
+        "tracks": 43,
+        "monthlyListeners": 47979524
+      },
+      "charts": []
+    },
+    "lisa": {
+      "change": {
+        "streams": null,
+        "dailyStreams": null,
+        "monthlyListeners": null,
+        "followers": null
+      },
+      "current": {
+        "streams": 5632195159,
+        "dailyStreams": 3724969,
+        "tracks": 32,
+        "monthlyListeners": 18420795
+      },
+      "charts": []
+    },
+    "rose": {
+      "change": {
+        "streams": null,
+        "dailyStreams": null,
+        "monthlyListeners": null,
+        "followers": null
+      },
+      "current": {
+        "streams": 5886181048,
+        "dailyStreams": 3380552,
+        "tracks": 19,
+        "monthlyListeners": 27844070
+      },
+      "charts": []
+    },
+    "jisoo": {
+      "change": {
+        "streams": null,
+        "dailyStreams": null,
+        "monthlyListeners": null,
+        "followers": null
+      },
+      "current": {
+        "streams": 1424625574,
+        "dailyStreams": 845860,
+        "tracks": 13,
+        "monthlyListeners": 7621898
+      },
+      "charts": []
+    }
+  },
+  "description": "Somente comparações entre coletas reais."
+}
