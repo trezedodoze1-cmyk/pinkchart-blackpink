@@ -64,6 +64,8 @@ def read_listeners(key,p):
   for metric,value in metrics.items():
    prev=p.get('metrics',{}).get(metric)
    if metric=='monthlyListeners' and exact_ok:continue
+   # Um valor exato conferido no app nao deve virar estimativa arredondada no dia seguinte.
+   if metric=='followers' and prev and prev.get('source')=='Spotify (app, conferência manual)' and not prev.get('approximate',False):continue
    if prev and prev.get('date','')>=legacy.TODAY and not prev.get('approximate',False):continue
    legacy.update_metric(p,metric,value,legacy.TODAY,'ChartMasters (aproximado)',approximate=True)
    print(key,metric,'aproximado:',value)
