@@ -48,3 +48,9 @@ No filtro **Todos**, números de perfis não são somados, pois participações 
 - `data/latest.json`, `data/history.json` etc. — backups legados do BLACKPINK **mantidos** para preservar o progresso inicial da versão anterior.
 
 Projeto de fã sem afiliação ao Spotify, YG Entertainment ou artistas/gravadoras.
+
+## Ranking geral de músicas e variação de daily
+- A aba **Ranking geral** mostra todas as faixas de BLACKPINK + JENNIE + LISA + ROSÉ + JISOO, com 20 linhas por página, buscas, filtros, classificação por streams, daily, variação e A–Z, além de CSV completo.
+- A coluna **Daily (Δ)** mostra **+streams diários (diferença vs coleta anterior)**, com verde para crescimento e vermelho para queda. Se ainda não houver uma medição anterior, aparece **(—)**.
+- O arquivo `data/song-history.json` guarda amostras diárias reais das músicas usando a data divulgada pelo Kworb. Cada coleta diária conserva o histórico anterior; se a fonte não atualizar, a comparação não é inventada.
+- Versões/remixes são exibidos no ranking geral por padrão; a opção **Ocultar versões** simplifica a lista. Participações podem aparecer em mais de um perfil, mas as métricas agregadas de artistas não são somadas.

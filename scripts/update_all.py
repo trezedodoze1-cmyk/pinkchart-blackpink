@@ -156,8 +156,27 @@ def read_chart(all_artists,period,slug,name,code,all_history):
    all_history[ident]=c
  print(f'Chart {period} {name}: '+', '.join(f'{key} {len(v)}' for key,v in matched.items()))
 
+def update_song_history(people):
+ # Um registro por artista e data DA FONTE, nao a data da execucao do runner.
+ # Falhas de coleta preservam a ultima amostra; variacoes nao sao inventadas.
+ history=get('song-history',{})
+ for key,profile in people.items():
+  stamp=profile.get('songsDate')
+  songs=profile.get('songs') or []
+  if not stamp or not songs:continue
+  rows=[[title,int(total),int(daily)] for title,total,daily in songs
+        if isinstance(title,str) and isinstance(total,(int,float)) and isinstance(daily,(int,float)) and total>=0 and daily>=0]
+  if not rows:continue
+  previous={row['date']:row for row in history.get(key,[]) if isinstance(row,dict) and row.get('date')}
+  # Quando ha repeticao da mesma data, mantemos somente a amostra mais recente dessa data.
+  previous[stamp]={'date':stamp,'songs':rows}
+  history[key]=sorted(previous.values(),key=lambda row:row['date'])
+ put('song-history',history)
+ print('Histórico por música:',', '.join(f'{key} {len(history.get(key,[]))} dia(s)' for key in people))
+ return history
+
 def write_seeds():
- payload={'artists':get('artists',{}),'catalog':get('catalog',{}),'artistHistory':get('artist-history',{}),'chartHistoryAll':get('charts-history-all',[])}
+ payload={'artists':get('artists',{}),'catalog':get('catalog',{}),'artistHistory':get('artist-history',{}),'chartHistoryAll':get('charts-history-all',[]),'songHistory':get('song-history',{})}
  path=legacy.ROOT/'assets'/'seed.js'
  path.write_text('window.__PINKCHART_SEED = '+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf8')
 
@@ -220,6 +239,7 @@ def main():
  put('charts-history-all',sorted(indexed.values(),key=lambda c:(c.get('date') or '',c.get('artistKey',''),c.get('code',''),c.get('title',''))))
  put('charts-history',[c for c in indexed.values() if c.get('artistKey')=='blackpink'])
  hist=update_histories(people)
+ update_song_history(people)
  if args.mode in ('weekly','all'):weekly_report(people,hist)
  write_seeds()
  print('Pronto: 5 artistas; '+str(len(NOTES))+' avisos. Nenhum número simulado.')
