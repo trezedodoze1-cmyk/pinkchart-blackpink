@@ -20,7 +20,7 @@ Abra `pinkchart-preview.html` ou `BLACKPINK_SOLOS_PINKCHART_PREVIA.html` no nave
 1. Descompacte e envie **todos** os arquivos do projeto para um repositório GitHub público, no ramo `main`. Não envie apenas o HTML de prévia.
 2. Em **Settings → Pages**, selecione **Source: GitHub Actions**.
 3. Na aba **Actions** do repositório, autorize a execução. O workflow `.github/workflows/update-and-deploy.yml` publica o site e também é executado diariamente às 10:00 e domingo às 11:00 no horário de Cuiabá (UTC−4).
-4. Para coletar **seguidores** via Spotify API, configure os secrets opcionais `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET` em **Settings → Secrets and variables → Actions**. Sem essas credenciais, seguidores não serão coletados para as artistas solo e o antigo valor aproximado do grupo será preservado.
+4. Para tentar coletar **seguidores exatos** via Spotify API (somente com acesso compatível), configure os secrets opcionais `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET` em **Settings → Secrets and variables → Actions**. Sem essas credenciais, o coletor tenta ler estimativas públicas do ChartMasters. Quando a fonte mostrar dados, os seguidores aparecem marcados como aproximados. A API Spotify em modo de desenvolvimento removeu o campo de seguidores em 2026; criar credenciais comuns não garante acesso.
 5. Você pode executar manualmente via **Actions → Atualizar charts e publicar site → Run workflow → all**.
 
 Script: `python scripts/update_all.py --mode daily`, `--mode weekly`, ou `--mode all` (Python 3.12+; instale `pip install -r scripts/requirements.txt`).
@@ -30,7 +30,7 @@ Script: `python scripts/update_all.py --mode daily`, `--mode weekly`, ou `--mode
 - **Kworb**: streams acumulados e diários por perfil, faixas e álbuns (links diferentes para cada integrante); inclui participações quando registradas no perfil.
 - **Spotify Top**: ouvintes mensais, quando publicados e identificados como pertencentes ao artista certo.
 - **Spotify Charts** via páginas públicas Kworb: posições diárias e semanais nos países configurados; disponibilidade varia.
-- **Spotify Web API**: seguidores por artista mediante autenticação opcional.
+- **Spotify Web API**: seguidores exatos apenas se a aplicação possuir acesso compatível ao campo, removido do modo de desenvolvimento em 2026. **ChartMasters**: fallback de seguidores e ouvintes mensais abreviados, identificados como aproximações, caso a identidade do artista e a seção Spotify sejam verificadas.
 
 **Transparência importante:** o projeto começa com uma seleção de medições de outubro de 2026, de datas variadas (ver cada indicador). Os catálogos de álbuns incluem tracklists confirmadas; quando uma faixa ainda não tem contagem coletada, aparece `—`, nunca um número fictício. O script tenta atualizar dados públicos após configurar o agendamento, mas páginas de terceiros podem bloquear ou mudar os dados. Histórico não é preenchido retroativamente de modo simulado.
 
