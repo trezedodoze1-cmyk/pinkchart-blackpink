@@ -75,19 +75,22 @@ def read_followers_batch(all_artists):
  cid=os.getenv('SPOTIFY_CLIENT_ID','').strip()
  secret=os.getenv('SPOTIFY_CLIENT_SECRET','').strip()
  if not(cid and secret):
-  NOTES.append('Seguidores: sem credenciais Spotify API; últimos valores preservados')
+  NOTES.append('Sem Spotify API: seguidores públicos aproximados quando disponíveis')
   return
  response=legacy.SESSION.post('https://accounts.spotify.com/api/token',data={'grant_type':'client_credentials'},auth=(cid,secret),timeout=25)
  response.raise_for_status()
  token=response.json()['access_token']
- ids=','.join(x[1] for x in ARTISTS.values())
- response=legacy.SESSION.get('https://api.spotify.com/v1/artists',params={'ids':ids},headers={'Authorization':'Bearer '+token},timeout=25)
- response.raise_for_status()
- artists=response.json().get('artists',[])
- by_id={a['id']:a for a in artists if a and a.get('id')}
  for k,(_,aid,_) in ARTISTS.items():
-  n=(by_id.get(aid,{}).get('followers') or {}).get('total')
-  if n is not None:legacy.update_metric(all_artists[k],'followers',int(n),legacy.TODAY,'Spotify Web API')
+  try:
+   response=legacy.SESSION.get('https://api.spotify.com/v1/artists/'+aid,headers={'Authorization':'Bearer '+token},timeout=25)
+   response.raise_for_status()
+   n=(response.json().get('followers') or {}).get('total')
+   if n is not None:
+    legacy.update_metric(all_artists[k],'followers',int(n),legacy.TODAY,'Spotify Web API',approximate=False)
+   else:
+    NOTES.append(k+' - API Spotify sem campo followers (restrição de 2026)')
+  except Exception as error:
+   NOTES.append(k+' - API Spotify: '+str(error))
 
 def detect_artist_and_song(text):
  # A célula do Kworb tem formato "Artist - Song". Usamos o mesmo escopo
