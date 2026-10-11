@@ -665,9 +665,7 @@
       "chartmasters": "https://chartmasters.org/artist/Black-Pink/",
       "spotify": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
     },
-    "collectionNotes": [
-      "blackpink · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-    ]
+    "collectionNotes": []
   },
   "jennie": {
     "artist": "JENNIE",
@@ -959,9 +957,7 @@
       "spotify": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
       "spotifyTop": "https://spotify-top.com/artist/jennie"
     },
-    "collectionNotes": [
-      "jennie · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-    ]
+    "collectionNotes": []
   },
   "lisa": {
     "artist": "LISA",
@@ -1193,9 +1189,7 @@
       "spotify": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
       "spotifyTop": "https://spotify-top.com/artist/lisa"
     },
-    "collectionNotes": [
-      "lisa · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-    ]
+    "collectionNotes": []
   },
   "rose": {
     "artist": "ROSÉ",
@@ -1373,9 +1367,7 @@
       "spotify": "https://open.spotify.com/artist/3eVa5w3URK5duf6eyVDbu9",
       "spotifyTop": "https://spotify-top.com/artist/rose"
     },
-    "collectionNotes": [
-      "rose · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-    ]
+    "collectionNotes": []
   },
   "jisoo": {
     "artist": "JISOO",
@@ -1502,8 +1494,6 @@
       "spotify": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
       "spotifyTop": "https://spotify-top.com/artist/jisoo"
     },
-    "collectionNotes": [
-      "jisoo · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-    ]
+    "collectionNotes": []
   }
 }

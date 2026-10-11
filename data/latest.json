@@ -664,7 +664,5 @@
     "chartmasters": "https://chartmasters.org/artist/Black-Pink/",
     "spotify": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
   },
-  "collectionNotes": [
-    "blackpink · ouvintes: ValueError: Ouvintes mensais exatos não disponíveis"
-  ]
+  "collectionNotes": []
 }
