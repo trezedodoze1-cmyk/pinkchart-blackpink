@@ -1,0 +1,59 @@
+{
+  "blackpink": [
+    {
+      "date": "2026-10-09",
+      "streams": 17893472271,
+      "dailyStreams": 4255766
+    },
+    {
+      "date": "2026-10-10",
+      "monthlyListeners": 19028664,
+      "followers": 61200000,
+      "followersApproximate": true
+    }
+  ],
+  "jennie": [
+    {
+      "date": "2026-10-07",
+      "monthlyListeners": 47979524
+    },
+    {
+      "date": "2026-10-09",
+      "streams": 8732773989,
+      "dailyStreams": 7409324
+    }
+  ],
+  "lisa": [
+    {
+      "date": "2026-10-09",
+      "streams": 5628526045,
+      "dailyStreams": 3686097
+    },
+    {
+      "date": "2026-10-10",
+      "monthlyListeners": 18420795
+    }
+  ],
+  "rose": [
+    {
+      "date": "2026-10-09",
+      "streams": 5882514427,
+      "dailyStreams": 3338055
+    },
+    {
+      "date": "2026-10-10",
+      "monthlyListeners": 27844070
+    }
+  ],
+  "jisoo": [
+    {
+      "date": "2026-10-05",
+      "streams": 1424625574,
+      "dailyStreams": 845860
+    },
+    {
+      "date": "2026-10-10",
+      "monthlyListeners": 7621898
+    }
+  ]
+}

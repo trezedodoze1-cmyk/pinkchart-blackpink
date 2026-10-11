@@ -1,0 +1,820 @@
+{
+  "blackpink": {
+    "artist": "BLACKPINK",
+    "artistId": "41MozSoPIsD1dJM0CLPjZF",
+    "metrics": {
+      "streams": {
+        "value": 17893472271,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "dailyStreams": {
+        "value": 4255766,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "monthlyListeners": {
+        "value": 19028664,
+        "date": "2026-10-10",
+        "source": "Spotify Top",
+        "approximate": false
+      },
+      "followers": {
+        "value": 61200000,
+        "date": "2026-10-10",
+        "source": "ChartMasters",
+        "approximate": true
+      },
+      "tracks": {
+        "value": 109,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      }
+    },
+    "songsDate": "2026-10-09",
+    "songs": [
+      [
+        "How You Like That",
+        1297956812,
+        227852
+      ],
+      [
+        "Kill This Love",
+        1081673172,
+        167845
+      ],
+      [
+        "Pink Venom",
+        1040514225,
+        239949
+      ],
+      [
+        "Shut Down",
+        916021582,
+        205621
+      ],
+      [
+        "DDU-DU DDU-DU",
+        894952340,
+        185343
+      ],
+      [
+        "As If It's Your Last",
+        822246291,
+        239187
+      ],
+      [
+        "Kiss And Make Up",
+        785280008,
+        142189
+      ],
+      [
+        "Lovesick Girls",
+        768976728,
+        161163
+      ],
+      [
+        "BOOMBAYAH",
+        732538349,
+        200694
+      ],
+      [
+        "JUMP",
+        704721569,
+        549681
+      ],
+      [
+        "Ice Cream (with Selena Gomez)",
+        677327628,
+        89913
+      ],
+      [
+        "Pretty Savage",
+        599859268,
+        146292
+      ],
+      [
+        "PLAYING WITH FIRE",
+        571733813,
+        165919
+      ],
+      [
+        "WHISTLE",
+        510573077,
+        118037
+      ],
+      [
+        "Typa Girl",
+        488457178,
+        95735
+      ],
+      [
+        "Forever Young",
+        453504945,
+        116507
+      ],
+      [
+        "Sour Candy (with BLACKPINK)",
+        428160091,
+        54111
+      ],
+      [
+        "Don't Know What To Do",
+        370490653,
+        89408
+      ],
+      [
+        "Tally",
+        347048279,
+        57170
+      ],
+      [
+        "Love To Hate Me",
+        295862962,
+        58639
+      ],
+      [
+        "STAY",
+        290263025,
+        57505
+      ],
+      [
+        "Crazy Over You",
+        284124266,
+        49877
+      ],
+      [
+        "Hard to Love",
+        275563570,
+        50051
+      ],
+      [
+        "Bet You Wanna (feat. Cardi B)",
+        224243363,
+        26102
+      ],
+      [
+        "You Never Know",
+        208668409,
+        31397
+      ],
+      [
+        "Really",
+        200182908,
+        35136
+      ],
+      [
+        "Kick It",
+        193931356,
+        32376
+      ],
+      [
+        "See U Later",
+        175325124,
+        33961
+      ],
+      [
+        "THE GIRLS - BLACKPINK THE GAME OST",
+        168979954,
+        35115
+      ],
+      [
+        "The Happiest Girl",
+        167666829,
+        32131
+      ],
+      [
+        "Ready For Love",
+        153300934,
+        32025
+      ],
+      [
+        "Yeah Yeah Yeah",
+        149601008,
+        25355
+      ],
+      [
+        "Hope Not",
+        143058664,
+        20088
+      ],
+      [
+        "GO",
+        106994385,
+        148150
+      ],
+      [
+        "BOOMBAYAH - Japanese Version",
+        100408026,
+        10093
+      ],
+      [
+        "DDU-DU DDU-DU - Remix",
+        95386505,
+        13282
+      ],
+      [
+        "DDU-DU DDU-DU - Japanese Version",
+        81849471,
+        9552
+      ],
+      [
+        "WHISTLE - Acoustic Ver.",
+        81406146,
+        11894
+      ],
+      [
+        "Champion",
+        53308658,
+        80682
+      ],
+      [
+        "Me and my",
+        37652039,
+        55397
+      ],
+      [
+        "Fxxxboy",
+        27046707,
+        34532
+      ]
+    ],
+    "albumsDate": "2026-10-09",
+    "albums": [
+      [
+        "THE ALBUM",
+        4357019436,
+        791235
+      ],
+      [
+        "BORN PINK",
+        3538173605,
+        738037
+      ],
+      [
+        "BLACKPINK 2021 'THE SHOW' LIVE",
+        3236722745,
+        574033
+      ],
+      [
+        "THE ALBUM (JP Ver.)",
+        2286457623,
+        391711
+      ],
+      [
+        "DEADLINE",
+        929723358,
+        868442
+      ],
+      [
+        "Dua Lipa (Complete Edition)",
+        785280008,
+        142189
+      ],
+      [
+        "BLACKPINK IN YOUR AREA (Japanese Version)",
+        493735640,
+        60757
+      ],
+      [
+        "BLACKPINK (Japanese Version)",
+        294158374,
+        36058
+      ]
+    ],
+    "chartsDate": "2026-10-10",
+    "charts": [
+      {
+        "country": "Coreia do Sul",
+        "code": "KR",
+        "period": "daily",
+        "title": "As If It's Your Last",
+        "position": 190,
+        "streams": 12868,
+        "date": "2026-10-10",
+        "source": "Spotify Top"
+      }
+    ],
+    "sourceLinks": {
+      "kworbSongs": "https://kworb.net/spotify/artist/41MozSoPIsD1dJM0CLPjZF_songs.html",
+      "kworbAlbums": "https://kworb.net/spotify/artist/41MozSoPIsD1dJM0CLPjZF_albums.html",
+      "spotifyTop": "https://spotify-top.com/artist/blackpink",
+      "chartmasters": "https://chartmasters.org/artist/Black-Pink/",
+      "spotify": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+    }
+  },
+  "jennie": {
+    "artist": "JENNIE",
+    "artistId": "250b0Wlc5Vk0CoUsaCY84M",
+    "metrics": {
+      "streams": {
+        "value": 8732773989,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "dailyStreams": {
+        "value": 7409324,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "tracks": {
+        "value": 43,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "monthlyListeners": {
+        "value": 47979524,
+        "date": "2026-10-07",
+        "source": "Spotify Top",
+        "approximate": false
+      }
+    },
+    "songsDate": "2026-10-09",
+    "songs": [
+      [
+        "One Of The Girls (with JENNIE, Lily Rose Depp)",
+        2885552990,
+        2166353
+      ],
+      [
+        "like JENNIE",
+        958990019,
+        645728
+      ],
+      [
+        "SOLO",
+        802509996,
+        137320
+      ],
+      [
+        "Mantra",
+        588614418,
+        277769
+      ],
+      [
+        "Dracula (with JENNIE)",
+        548560152,
+        1336723
+      ],
+      [
+        "You & Me",
+        357253259,
+        113622
+      ],
+      [
+        "ExtraL (feat. Doechii)",
+        355393582,
+        221014
+      ],
+      [
+        "SPOT!",
+        310646826,
+        133217
+      ],
+      [
+        "Love Hangover (feat. Dominic Fike)",
+        251119523,
+        132982
+      ],
+      [
+        "Intro : JANE with FKJ",
+        37444867,
+        25658
+      ],
+      [
+        "F.T.S.",
+        36425417,
+        26235
+      ],
+      [
+        "FALLEN ANGEL",
+        30569426,
+        335344
+      ],
+      [
+        "HEAVEN",
+        21590117,
+        225039
+      ]
+    ],
+    "albumsDate": "2026-09-27",
+    "albums": [
+      [
+        "Ruby (The Complete Collection)",
+        3278862215,
+        2277911
+      ],
+      [
+        "Ruby",
+        3220157206,
+        2142050
+      ],
+      [
+        "Fallen Angel",
+        114811682,
+        1207380
+      ]
+    ],
+    "charts": [
+      {
+        "artistKey": "jennie",
+        "country": "Global",
+        "code": "GLOBAL",
+        "period": "daily",
+        "title": "One Of The Girls",
+        "position": 39,
+        "streams": 1935918,
+        "date": "2026-10-07",
+        "source": "Spotify Top"
+      },
+      {
+        "artistKey": "jennie",
+        "country": "Coreia do Sul",
+        "code": "KR",
+        "period": "daily",
+        "title": "Less than a Lover",
+        "position": 68,
+        "streams": 19022,
+        "date": "2026-10-07",
+        "source": "Spotify Top"
+      }
+    ],
+    "chartsDate": "2026-10-07",
+    "sourceLinks": {
+      "kworbSongs": "https://kworb.net/spotify/artist/250b0Wlc5Vk0CoUsaCY84M_songs.html",
+      "kworbAlbums": "https://kworb.net/spotify/artist/250b0Wlc5Vk0CoUsaCY84M_albums.html",
+      "spotify": "https://open.spotify.com/artist/250b0Wlc5Vk0CoUsaCY84M",
+      "spotifyTop": "https://spotify-top.com/artist/jennie"
+    }
+  },
+  "lisa": {
+    "artist": "LISA",
+    "artistId": "5L1lO4eRHmJ7a0Q6csE5cT",
+    "metrics": {
+      "streams": {
+        "value": 5628526045,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "dailyStreams": {
+        "value": 3686097,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "tracks": {
+        "value": 32,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "monthlyListeners": {
+        "value": 18420795,
+        "date": "2026-10-10",
+        "source": "Spotify Top",
+        "approximate": false
+      }
+    },
+    "songsDate": "2026-10-09",
+    "songs": [
+      [
+        "MONEY",
+        1442042566,
+        233873
+      ],
+      [
+        "LALISA",
+        656111398,
+        133223
+      ],
+      [
+        "Rockstar",
+        643762144,
+        336181
+      ],
+      [
+        "Moonlit Floor (Kiss Me)",
+        446343004,
+        175816
+      ],
+      [
+        "New Woman (feat. ROSALÍA)",
+        425422228,
+        143008
+      ],
+      [
+        "Born Again (feat. Doja Cat & RAYE)",
+        397692056,
+        237636
+      ],
+      [
+        "SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)",
+        354358681,
+        60189
+      ],
+      [
+        "Shoong! (feat. LISA of BLACKPINK)",
+        225902115,
+        55855
+      ]
+    ],
+    "albumsDate": "2026-10-09",
+    "albums": [
+      [
+        "Alter Ego",
+        2539888576,
+        1423727
+      ],
+      [
+        "Love Is Like",
+        108580023,
+        59911
+      ]
+    ],
+    "charts": [
+      {
+        "artistKey": "lisa",
+        "country": "Global",
+        "code": "GLOBAL",
+        "period": "daily",
+        "title": "SaWaDiKa",
+        "position": 165,
+        "streams": 1240999,
+        "date": "2026-10-10",
+        "source": "Spotify Top"
+      }
+    ],
+    "chartsDate": "2026-10-10",
+    "sourceLinks": {
+      "kworbSongs": "https://kworb.net/spotify/artist/5L1lO4eRHmJ7a0Q6csE5cT_songs.html",
+      "kworbAlbums": "https://kworb.net/spotify/artist/5L1lO4eRHmJ7a0Q6csE5cT_albums.html",
+      "spotify": "https://open.spotify.com/artist/5L1lO4eRHmJ7a0Q6csE5cT",
+      "spotifyTop": "https://spotify-top.com/artist/lisa"
+    }
+  },
+  "rose": {
+    "artist": "ROSÉ",
+    "artistId": "3eVa5w3URK5duf6eyVDbu9",
+    "metrics": {
+      "streams": {
+        "value": 5882514427,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "dailyStreams": {
+        "value": 3338055,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "tracks": {
+        "value": 19,
+        "date": "2026-10-09",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "monthlyListeners": {
+        "value": 27844070,
+        "date": "2026-10-10",
+        "source": "Spotify Top",
+        "approximate": false
+      }
+    },
+    "songsDate": "2026-10-09",
+    "songs": [
+      [
+        "APT.",
+        2662855494,
+        1259620
+      ],
+      [
+        "On The Ground",
+        597284668,
+        95488
+      ],
+      [
+        "toxic till the end",
+        487676541,
+        318023
+      ],
+      [
+        "Gone",
+        478330907,
+        103125
+      ],
+      [
+        "number one girl",
+        370700701,
+        248340
+      ],
+      [
+        "Messy (From F1® The Movie)",
+        203690680,
+        163099
+      ],
+      [
+        "On My Mind",
+        151260010,
+        128038
+      ],
+      [
+        "drinks or coffee",
+        146015035,
+        90323
+      ],
+      [
+        "stay a little longer",
+        117214516,
+        87884
+      ],
+      [
+        "3am",
+        101559433,
+        88792
+      ],
+      [
+        "two years",
+        99109836,
+        72451
+      ],
+      [
+        "gameboy",
+        95448422,
+        55229
+      ],
+      [
+        "too bad for us",
+        60934410,
+        40892
+      ],
+      [
+        "dance all night",
+        60282985,
+        48308
+      ],
+      [
+        "call it the end",
+        49822879,
+        35162
+      ],
+      [
+        "not the same",
+        48419262,
+        25998
+      ],
+      [
+        "new trick",
+        15561799,
+        423102
+      ]
+    ],
+    "albumsDate": "2026-10-08",
+    "albums": [
+      [
+        "rosie",
+        4297668492,
+        2395414
+      ]
+    ],
+    "charts": [
+      {
+        "artistKey": "rose",
+        "country": "Global",
+        "code": "GLOBAL",
+        "period": "daily",
+        "title": "APT.",
+        "position": 150,
+        "streams": 1289544,
+        "date": "2026-10-10",
+        "source": "Spotify Top"
+      },
+      {
+        "artistKey": "rose",
+        "country": "Coreia do Sul",
+        "code": "KR",
+        "period": "daily",
+        "title": "toxic till the end",
+        "position": 97,
+        "streams": 16751,
+        "date": "2026-10-10",
+        "source": "Spotify Top"
+      }
+    ],
+    "chartsDate": "2026-10-10",
+    "sourceLinks": {
+      "kworbSongs": "https://kworb.net/spotify/artist/3eVa5w3URK5duf6eyVDbu9_songs.html",
+      "kworbAlbums": "https://kworb.net/spotify/artist/3eVa5w3URK5duf6eyVDbu9_albums.html",
+      "spotify": "https://open.spotify.com/artist/3eVa5w3URK5duf6eyVDbu9",
+      "spotifyTop": "https://spotify-top.com/artist/rose"
+    }
+  },
+  "jisoo": {
+    "artist": "JISOO",
+    "artistId": "6UZ0ba50XreR4TM8u322gs",
+    "metrics": {
+      "streams": {
+        "value": 1424625574,
+        "date": "2026-10-05",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "dailyStreams": {
+        "value": 845860,
+        "date": "2026-10-05",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "tracks": {
+        "value": 13,
+        "date": "2026-10-05",
+        "source": "Kworb",
+        "approximate": false
+      },
+      "monthlyListeners": {
+        "value": 7621898,
+        "date": "2026-10-10",
+        "source": "Spotify Top",
+        "approximate": false
+      }
+    },
+    "songsDate": "2026-10-05",
+    "songs": [
+      [
+        "FLOWER",
+        639427471,
+        105582
+      ],
+      [
+        "earthquake",
+        202923514,
+        116893
+      ],
+      [
+        "All Eyes On Me",
+        191771293,
+        41571
+      ],
+      [
+        "EYES CLOSED (with ZAYN)",
+        184023517,
+        152327
+      ],
+      [
+        "Your Love",
+        88410693,
+        96602
+      ],
+      [
+        "Hugs & Kisses",
+        49346958,
+        47237
+      ],
+      [
+        "TEARS",
+        35747945,
+        32757
+      ],
+      [
+        "CLICK",
+        21671414,
+        241964
+      ]
+    ],
+    "albumsDate": "2026-10-05",
+    "albums": [
+      [
+        "AMORTAGE",
+        376429110,
+        293489
+      ]
+    ],
+    "charts": [
+      {
+        "artistKey": "jisoo",
+        "country": "Vietnã",
+        "code": "VN",
+        "period": "daily",
+        "title": "CLICK",
+        "position": 178,
+        "streams": 23553,
+        "date": "2026-10-10",
+        "source": "Spotify Top"
+      }
+    ],
+    "chartsDate": "2026-10-10",
+    "sourceLinks": {
+      "kworbSongs": "https://kworb.net/spotify/artist/6UZ0ba50XreR4TM8u322gs_songs.html",
+      "kworbAlbums": "https://kworb.net/spotify/artist/6UZ0ba50XreR4TM8u322gs_albums.html",
+      "spotify": "https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs",
+      "spotifyTop": "https://spotify-top.com/artist/jisoo"
+    }
+  }
+}

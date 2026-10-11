@@ -1,0 +1,79 @@
+[
+  {
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "As If It's Your Last",
+    "position": 190,
+    "streams": 12868,
+    "date": "2026-10-10",
+    "source": "Spotify Top",
+    "artistKey": "blackpink"
+  },
+  {
+    "artistKey": "jennie",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "One Of The Girls",
+    "position": 39,
+    "streams": 1935918,
+    "date": "2026-10-07",
+    "source": "Spotify Top"
+  },
+  {
+    "artistKey": "jennie",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Less than a Lover",
+    "position": 68,
+    "streams": 19022,
+    "date": "2026-10-07",
+    "source": "Spotify Top"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "SaWaDiKa",
+    "position": 165,
+    "streams": 1240999,
+    "date": "2026-10-10",
+    "source": "Spotify Top"
+  },
+  {
+    "artistKey": "rose",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "APT.",
+    "position": 150,
+    "streams": 1289544,
+    "date": "2026-10-10",
+    "source": "Spotify Top"
+  },
+  {
+    "artistKey": "rose",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "toxic till the end",
+    "position": 97,
+    "streams": 16751,
+    "date": "2026-10-10",
+    "source": "Spotify Top"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Vietnã",
+    "code": "VN",
+    "period": "daily",
+    "title": "CLICK",
+    "position": 178,
+    "streams": 23553,
+    "date": "2026-10-10",
+    "source": "Spotify Top"
+  }
+]
