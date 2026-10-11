@@ -16,9 +16,9 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 19028664,
-        "date": "2026-10-10",
-        "source": "Spotify Top",
+        "value": 18975663,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
@@ -690,9 +690,15 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 47979524,
-        "date": "2026-10-07",
-        "source": "Spotify Top",
+        "value": 47995200,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
+        "approximate": false
+      },
+      "followers": {
+        "value": 16785231,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
@@ -982,9 +988,15 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 18420795,
-        "date": "2026-10-10",
-        "source": "Spotify Top",
+        "value": 18131396,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
+        "approximate": false
+      },
+      "followers": {
+        "value": 16651440,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
@@ -1214,9 +1226,15 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 27844070,
-        "date": "2026-10-10",
-        "source": "Spotify Top",
+        "value": 27851967,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
+        "approximate": false
+      },
+      "followers": {
+        "value": 16341453,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
@@ -1392,9 +1410,15 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 7621898,
-        "date": "2026-10-10",
-        "source": "Spotify Top",
+        "value": 7246701,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
+        "approximate": false
+      },
+      "followers": {
+        "value": 9899893,
+        "date": "2026-10-11",
+        "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
