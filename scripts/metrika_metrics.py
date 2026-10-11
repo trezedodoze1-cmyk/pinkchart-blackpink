@@ -53,7 +53,23 @@ def collect(ids):
     request = {"resources":[{"platform":"spotify","type":"account","identifier":aid} for aid in ids.values()]}
     response = requests.post(URL,json=request,headers={"Authorization":"Bearer "+token},timeout=35)
     response.raise_for_status()
-    return parse_data(response.json(),ids)
+    payload = response.json()
+    # Registra somente o status público de cada perfil, nunca o token.
+    lookup = {v:k for k,v in ids.items()}
+    for resource in payload.get("data", []):
+        if not isinstance(resource, dict):
+            continue
+        artist = lookup.get(resource.get("identifier"))
+        if not artist:
+            continue
+        status = str(resource.get("status", "unknown"))
+        metrics = resource.get("metrics") or {}
+        f = metrics.get("followers") or {}
+        v = metrics.get("views") or {}
+        follower_status = f.get("status", "not_ready") if isinstance(f, dict) else "not_ready"
+        listener_status = v.get("status", "not_ready") if isinstance(v, dict) else "not_ready"
+        print(f"Metrika status {artist}: perfil={status}, seguidores={follower_status}, ouvintes={listener_status}")
+    return parse_data(payload,ids)
 
 if __name__ == "__main__":
     sample = {"data":[{"platform":"spotify","type":"account","identifier":"123","status":"available","metrics":{
