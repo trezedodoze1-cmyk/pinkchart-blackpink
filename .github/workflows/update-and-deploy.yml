@@ -1,0 +1,75 @@
+name: Atualizar charts e publicar site
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 10:00 em Cuiabá (UTC-4).
+    - cron: '0 14 * * *'
+    # Domingo 11:00 em Cuiabá.
+    - cron: '0 15 * * 0'
+  workflow_dispatch:
+    inputs:
+      update_mode:
+        description: Tipo de atualização
+        required: true
+        type: choice
+        options: [daily, weekly, all]
+        default: all
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pinkchart-site
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependências
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Coletar dados agendados
+        if: github.event_name != 'push'
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          EVENT_CRON: ${{ github.event.schedule }}
+          REQUESTED_MODE: ${{ inputs.update_mode }}
+        run: |
+          MODE="$REQUESTED_MODE"
+          if [ -z "$MODE" ]; then
+            if [ "$EVENT_CRON" = '0 15 * * 0' ]; then MODE=weekly; else MODE=daily; fi
+          fi
+          python scripts/update_all.py --mode "$MODE"
+      - name: Registrar novos snapshots no Git
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'pinkchart-bot'
+          git config user.email 'pinkchart-bot@users.noreply.github.com'
+          git add data/ assets/seed.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'BLACKPINK + SOLOS: atualização automática'
+            git push
+          fi
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Preparar site estático
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data _site/
+      - name: Upload para GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
