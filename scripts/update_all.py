@@ -15,6 +15,7 @@ from pathlib import Path
 from html import unescape
 from typing import Optional
 import update as legacy
+from public_metrics import spotify_top_monthly, chartmasters_metrics
 
 ARTISTS={
  'blackpink':('BLACKPINK','41MozSoPIsD1dJM0CLPjZF','blackpink'),
@@ -45,20 +46,30 @@ def setup_legacy(key):
  legacy.URL_SPOTIFY_TOP='https://spotify-top.com/artist/'+slug
 
 def read_listeners(key,p):
- # Precisa ter certeza do título da página, senão um fallback estranho pode
- # fazer gravar ouvintes de outro artista. Não assume que a página existe.
- _,_,slug=ARTISTS[key]
- soup=legacy.fetch_soup('https://spotify-top.com/artist/'+slug)
- title=(soup.title.get_text(' ',strip=True) if soup.title else '').casefold()
- artist=ARTISTS[key][0].casefold()
- if artist not in title or 'blackpink' in title and key!='blackpink':
-  raise ValueError('Página de ouvintes não identifica o artista esperado')
- content=soup.get_text(' ',strip=True)
- m=re.search(r'Monthly\s+listeners\s+[\d.,]+\s*[MK]?\s*\(([\d,]+)\)',content,re.I)
- if not m:raise ValueError('Ouvintes mensais exatos não disponíveis')
- n=legacy.as_int(m.group(1))
- if n is None or n < 1000:raise ValueError('Valor de ouvintes suspeito')
- legacy.update_metric(p,'monthlyListeners',n,legacy.TODAY,'Spotify Top')
+ name,_,slug=ARTISTS[key]
+ exact_ok=False
+ try:
+  soup=legacy.fetch_soup('https://spotify-top.com/artist/'+slug)
+  n=spotify_top_monthly(soup,name)
+  legacy.update_metric(p,'monthlyListeners',n,legacy.TODAY,'Spotify Top')
+  exact_ok=True
+  print(key,'ouvintes exatos:',n)
+ except Exception as e:
+  print('AVISO',key,'Spotify Top:',e,file=sys.stderr)
+ url=p.get('sourceLinks',{}).get('chartmasters') or 'https://chartmasters.org/artist/'+('Black-Pink' if key=='blackpink' else name)+'/'
+ try:
+  soup=legacy.fetch_soup(url)
+  metrics=chartmasters_metrics(soup,name)
+  p.setdefault('sourceLinks',{})['chartmasters']=url
+  for metric,value in metrics.items():
+   prev=p.get('metrics',{}).get(metric)
+   if metric=='monthlyListeners' and exact_ok:continue
+   if prev and prev.get('date','')>=legacy.TODAY and not prev.get('approximate',False):continue
+   legacy.update_metric(p,metric,value,legacy.TODAY,'ChartMasters (aproximado)',approximate=True)
+   print(key,metric,'aproximado:',value)
+ except Exception as e:
+  NOTES.append(f'{key} - ChartMasters: {e}')
+  print('AVISO',NOTES[-1],file=sys.stderr)
 
 def read_followers_batch(all_artists):
  cid=os.getenv('SPOTIFY_CLIENT_ID','').strip()
