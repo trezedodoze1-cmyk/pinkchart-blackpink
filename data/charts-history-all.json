@@ -130,5 +130,27 @@
     "streams": 1094100,
     "date": "2026-10-12",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jennie",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Less than a Lover",
+    "position": 107,
+    "streams": 16201,
+    "date": "2026-10-13",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "SaWaDiKa",
+    "position": 187,
+    "streams": 1155583,
+    "date": "2026-10-13",
+    "source": "Kworb"
   }
 ]
