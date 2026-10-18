@@ -174,5 +174,16 @@
     "streams": 1187225,
     "date": "2026-10-15",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jennie",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Less than a Lover",
+    "position": 128,
+    "streams": 14756,
+    "date": "2026-10-16",
+    "source": "Kworb"
   }
 ]
