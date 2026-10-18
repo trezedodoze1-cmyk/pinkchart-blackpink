@@ -1,79 +1,107 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-10-18",
   "artists": {
     "blackpink": {
       "change": {
-        "streams": null,
-        "dailyStreams": null,
-        "monthlyListeners": null,
-        "followers": null
+        "streams": 29263771,
+        "dailyStreams": -24051,
+        "monthlyListeners": -166355,
+        "followers": 89796
       },
       "current": {
-        "streams": 17897771431,
-        "dailyStreams": 4299160,
-        "monthlyListeners": 19028664,
-        "followers": 61226773,
+        "streams": 17927035202,
+        "dailyStreams": 4275109,
+        "monthlyListeners": 18862309,
+        "followers": 61289796,
         "tracks": 109
       },
       "charts": []
     },
     "jennie": {
       "change": {
-        "streams": null,
-        "dailyStreams": null,
-        "monthlyListeners": null,
+        "streams": 50661961,
+        "dailyStreams": -275209,
+        "monthlyListeners": 61122,
         "followers": null
       },
       "current": {
-        "streams": 8740734304,
-        "dailyStreams": 7621156,
+        "streams": 8791396265,
+        "dailyStreams": 7345947,
         "tracks": 43,
-        "monthlyListeners": 47979524
+        "monthlyListeners": 48040646,
+        "followers": 16842137
       },
-      "charts": []
+      "charts": [
+        {
+          "artistKey": "jennie",
+          "country": "Coreia do Sul",
+          "code": "KR",
+          "period": "weekly",
+          "title": "Less than a Lover",
+          "position": 104,
+          "streams": 114505,
+          "date": "2026-10-15",
+          "source": "Kworb"
+        }
+      ]
     },
     "lisa": {
       "change": {
-        "streams": null,
-        "dailyStreams": null,
-        "monthlyListeners": null,
+        "streams": 25540641,
+        "dailyStreams": 12600,
+        "monthlyListeners": -937126,
         "followers": null
       },
       "current": {
-        "streams": 5632195159,
-        "dailyStreams": 3724969,
+        "streams": 5657735800,
+        "dailyStreams": 3737569,
         "tracks": 32,
-        "monthlyListeners": 18420795
+        "monthlyListeners": 17483669,
+        "followers": 16711162
       },
-      "charts": []
+      "charts": [
+        {
+          "artistKey": "lisa",
+          "country": "Global",
+          "code": "GLOBAL",
+          "period": "weekly",
+          "title": "SaWaDiKa",
+          "position": 178,
+          "streams": 8142738,
+          "date": "2026-10-15",
+          "source": "Kworb"
+        }
+      ]
     },
     "rose": {
       "change": {
-        "streams": null,
-        "dailyStreams": null,
-        "monthlyListeners": null,
+        "streams": 22155917,
+        "dailyStreams": -171482,
+        "monthlyListeners": -500170,
         "followers": null
       },
       "current": {
-        "streams": 5886181048,
-        "dailyStreams": 3380552,
+        "streams": 5908336965,
+        "dailyStreams": 3209070,
         "tracks": 19,
-        "monthlyListeners": 27844070
+        "monthlyListeners": 27343900,
+        "followers": 16378988
       },
       "charts": []
     },
     "jisoo": {
       "change": {
-        "streams": null,
-        "dailyStreams": null,
-        "monthlyListeners": null,
+        "streams": 6294459,
+        "dailyStreams": 53343,
+        "monthlyListeners": -1261233,
         "followers": null
       },
       "current": {
-        "streams": 1424625574,
-        "dailyStreams": 845860,
+        "streams": 1430920033,
+        "dailyStreams": 899203,
         "tracks": 13,
-        "monthlyListeners": 7621898
+        "monthlyListeners": 6360665,
+        "followers": 9937576
       },
       "charts": []
     }
