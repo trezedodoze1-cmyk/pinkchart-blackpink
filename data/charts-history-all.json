@@ -229,5 +229,16 @@
     "streams": 14457,
     "date": "2026-10-20",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "SaWaDiKa",
+    "position": 199,
+    "streams": 1151658,
+    "date": "2026-10-21",
+    "source": "Kworb"
   }
 ]
