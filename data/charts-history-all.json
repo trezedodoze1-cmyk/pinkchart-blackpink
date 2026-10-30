@@ -394,5 +394,16 @@
     "streams": 1357915,
     "date": "2026-10-28",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Tarantino",
+    "position": 124,
+    "streams": 15133,
+    "date": "2026-10-28",
+    "source": "Kworb"
   }
 ]
