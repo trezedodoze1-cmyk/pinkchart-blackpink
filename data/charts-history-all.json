@@ -427,5 +427,49 @@
     "streams": 16471,
     "date": "2026-10-29",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 195,
+    "streams": 1240991,
+    "date": "2026-10-30",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 200,
+    "streams": 12415,
+    "date": "2026-10-30",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "Tarantino",
+    "position": 180,
+    "streams": 1281150,
+    "date": "2026-10-30",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Tarantino",
+    "position": 127,
+    "streams": 15498,
+    "date": "2026-10-30",
+    "source": "Kworb"
   }
 ]
