@@ -932,19 +932,7 @@
         825371
       ]
     ],
-    "charts": [
-      {
-        "artistKey": "jennie",
-        "country": "Coreia do Sul",
-        "code": "KR",
-        "period": "weekly",
-        "title": "Less than a Lover",
-        "position": 172,
-        "streams": 95247,
-        "date": "2026-10-22",
-        "source": "Kworb"
-      }
-    ],
+    "charts": [],
     "chartsDate": "2026-10-30",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/250b0Wlc5Vk0CoUsaCY84M_songs.html",
@@ -1221,6 +1209,28 @@
         "position": 127,
         "streams": 15498,
         "date": "2026-10-30",
+        "source": "Kworb"
+      },
+      {
+        "artistKey": "lisa",
+        "country": "Global",
+        "code": "GLOBAL",
+        "period": "weekly",
+        "title": "Tarantino",
+        "position": 107,
+        "streams": 9407209,
+        "date": "2026-10-29",
+        "source": "Kworb"
+      },
+      {
+        "artistKey": "lisa",
+        "country": "Global",
+        "code": "GLOBAL",
+        "period": "weekly",
+        "title": "SaWaDiKa",
+        "position": 111,
+        "streams": 9268196,
+        "date": "2026-10-29",
         "source": "Kworb"
       }
     ],

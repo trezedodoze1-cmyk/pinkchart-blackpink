@@ -1,95 +1,106 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-11-01",
   "artists": {
     "blackpink": {
       "change": {
-        "streams": 28475984,
-        "dailyStreams": -158271,
-        "monthlyListeners": -150035,
-        "followers": 74818
+        "streams": 28420457,
+        "dailyStreams": 78036,
+        "monthlyListeners": -99560,
+        "followers": 72787
       },
       "current": {
-        "streams": 17955511186,
-        "dailyStreams": 4116838,
-        "monthlyListeners": 18712274,
-        "followers": 61364614,
+        "streams": 17983931643,
+        "dailyStreams": 4194874,
+        "monthlyListeners": 18612714,
+        "followers": 61437401,
         "tracks": 109
       },
       "charts": []
     },
     "jennie": {
       "change": {
-        "streams": 48570794,
-        "dailyStreams": -323377,
-        "monthlyListeners": -240691,
-        "followers": 66021
+        "streams": 48922889,
+        "dailyStreams": 556409,
+        "monthlyListeners": 111740,
+        "followers": 61612
       },
       "current": {
-        "streams": 8839967059,
-        "dailyStreams": 7022570,
+        "streams": 8888889948,
+        "dailyStreams": 7578979,
         "tracks": 43,
-        "monthlyListeners": 47799955,
-        "followers": 16908158
+        "monthlyListeners": 47911695,
+        "followers": 16969770
+      },
+      "charts": []
+    },
+    "lisa": {
+      "change": {
+        "streams": 46702278,
+        "dailyStreams": 1727390,
+        "monthlyListeners": 1312598,
+        "followers": 77604
+      },
+      "current": {
+        "streams": 5737448042,
+        "dailyStreams": 6282156,
+        "tracks": 37,
+        "monthlyListeners": 19214311,
+        "followers": 16878935
       },
       "charts": [
         {
-          "artistKey": "jennie",
-          "country": "Coreia do Sul",
-          "code": "KR",
+          "artistKey": "lisa",
+          "country": "Global",
+          "code": "GLOBAL",
           "period": "weekly",
-          "title": "Less than a Lover",
-          "position": 172,
-          "streams": 95247,
-          "date": "2026-10-22",
+          "title": "Tarantino",
+          "position": 107,
+          "streams": 9407209,
+          "date": "2026-10-29",
+          "source": "Kworb"
+        },
+        {
+          "artistKey": "lisa",
+          "country": "Global",
+          "code": "GLOBAL",
+          "period": "weekly",
+          "title": "SaWaDiKa",
+          "position": 111,
+          "streams": 9268196,
+          "date": "2026-10-29",
           "source": "Kworb"
         }
       ]
     },
-    "lisa": {
-      "change": {
-        "streams": 33009964,
-        "dailyStreams": 817197,
-        "monthlyListeners": 418044,
-        "followers": 90169
-      },
-      "current": {
-        "streams": 5690745764,
-        "dailyStreams": 4554766,
-        "tracks": 37,
-        "monthlyListeners": 17901713,
-        "followers": 16801331
-      },
-      "charts": []
-    },
     "rose": {
       "change": {
-        "streams": 22435581,
-        "dailyStreams": 156510,
-        "monthlyListeners": -755857,
-        "followers": 44036
+        "streams": 22796602,
+        "dailyStreams": 14373,
+        "monthlyListeners": -336058,
+        "followers": 41439
       },
       "current": {
-        "streams": 5930772546,
-        "dailyStreams": 3365580,
+        "streams": 5953569148,
+        "dailyStreams": 3379953,
         "tracks": 19,
-        "monthlyListeners": 26588043,
-        "followers": 16423024
+        "monthlyListeners": 26251985,
+        "followers": 16464463
       },
       "charts": []
     },
     "jisoo": {
       "change": {
-        "streams": 5878958,
-        "dailyStreams": -59355,
-        "monthlyListeners": -407938,
-        "followers": 43320
+        "streams": 9500630,
+        "dailyStreams": 67285,
+        "monthlyListeners": 152761,
+        "followers": 52789
       },
       "current": {
-        "streams": 1436798991,
-        "dailyStreams": 839848,
+        "streams": 1446299621,
+        "dailyStreams": 907133,
         "tracks": 13,
-        "monthlyListeners": 5952727,
-        "followers": 9980896
+        "monthlyListeners": 6105488,
+        "followers": 10033685
       },
       "charts": []
     }

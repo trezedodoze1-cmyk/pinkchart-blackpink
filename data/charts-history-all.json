@@ -410,10 +410,32 @@
     "artistKey": "lisa",
     "country": "Global",
     "code": "GLOBAL",
+    "period": "weekly",
+    "title": "SaWaDiKa",
+    "position": 111,
+    "streams": 9268196,
+    "date": "2026-10-29",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
     "period": "daily",
     "title": "Tarantino",
     "position": 126,
     "streams": 1357564,
+    "date": "2026-10-29",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "weekly",
+    "title": "Tarantino",
+    "position": 107,
+    "streams": 9407209,
     "date": "2026-10-29",
     "source": "Kworb"
   },
