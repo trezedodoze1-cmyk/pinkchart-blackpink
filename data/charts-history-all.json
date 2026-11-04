@@ -504,5 +504,38 @@
     "streams": 13519,
     "date": "2026-11-01",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 74,
+    "streams": 19938,
+    "date": "2026-11-02",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Global",
+    "code": "GLOBAL",
+    "period": "daily",
+    "title": "SaWaDiKa",
+    "position": 196,
+    "streams": 1078651,
+    "date": "2026-11-02",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Tarantino",
+    "position": 148,
+    "streams": 14629,
+    "date": "2026-11-02",
+    "source": "Kworb"
   }
 ]
