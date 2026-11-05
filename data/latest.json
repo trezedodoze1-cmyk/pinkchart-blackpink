@@ -3,648 +3,648 @@
   "artistId": "41MozSoPIsD1dJM0CLPjZF",
   "metrics": {
     "streams": {
-      "value": 17995542814,
-      "date": "2026-11-03",
+      "value": 17999514452,
+      "date": "2026-11-04",
       "source": "Kworb",
       "approximate": false
     },
     "dailyStreams": {
-      "value": 3845378,
-      "date": "2026-11-03",
+      "value": 3971638,
+      "date": "2026-11-04",
       "source": "Kworb",
       "approximate": false
     },
     "monthlyListeners": {
-      "value": 18500923,
-      "date": "2026-11-03",
+      "value": 18465987,
+      "date": "2026-11-04",
       "source": "Metrika (Spotify)",
       "approximate": false
     },
     "followers": {
-      "value": 61466696,
-      "date": "2026-11-03",
+      "value": 61474069,
+      "date": "2026-11-04",
       "source": "Metrika (Spotify)",
       "approximate": false
     },
     "tracks": {
       "value": 109,
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "source": "Kworb",
       "approximate": false
     }
   },
-  "songsDate": "2026-11-03",
+  "songsDate": "2026-11-04",
   "songs": [
     [
       "How You Like That",
-      1303442689,
-      213415
+      1303653349,
+      210660
     ],
     [
       "Kill This Love",
-      1085740816,
-      148751
+      1085894129,
+      153313
     ],
     [
       "Pink Venom",
-      1046210722,
-      217058
+      1046432430,
+      221708
     ],
     [
       "Shut Down",
-      921080379,
-      192654
+      921277807,
+      197428
     ],
     [
       "DDU-DU DDU-DU",
-      899518928,
-      173070
+      899697659,
+      178731
     ],
     [
       "As If It's Your Last",
-      828104097,
-      233133
+      828349446,
+      245349
     ],
     [
       "Kiss And Make Up",
-      788845425,
-      128767
+      788975969,
+      130544
     ],
     [
       "Lovesick Girls",
-      772858934,
-      148518
+      773012430,
+      153496
     ],
     [
       "BOOMBAYAH",
-      737359016,
-      178096
+      737544093,
+      185077
     ],
     [
       "JUMP",
-      718138416,
-      504762
+      718652042,
+      513626
     ],
     [
       "Ice Cream (with Selena Gomez)",
-      679366365,
-      72762
+      679442357,
+      75992
     ],
     [
       "Pretty Savage",
-      603054418,
-      119003
+      603176632,
+      122214
     ],
     [
       "PLAYING WITH FIRE",
-      575496109,
-      139228
+      575645999,
+      149890
     ],
     [
       "WHISTLE",
-      513470937,
-      120991
+      513596311,
+      125374
     ],
     [
       "Typa Girl",
-      490736079,
-      80232
+      490818469,
+      82390
     ],
     [
       "Forever Young",
-      456171521,
-      94587
+      456272632,
+      101111
     ],
     [
       "Sour Candy (with BLACKPINK)",
-      429418592,
-      46814
-    ],
-    [
-      "Don't Know What To Do",
-      372398097,
-      68400
-    ],
-    [
-      "Tally",
-      348360727,
-      48024
-    ],
-    [
-      "Love To Hate Me",
-      297284428,
-      54534
-    ],
-    [
-      "STAY",
-      291679423,
-      61490
-    ],
-    [
-      "Crazy Over You",
-      285289603,
-      43810
-    ],
-    [
-      "Hard to Love",
-      276723333,
-      43838
-    ],
-    [
-      "Bet You Wanna (feat. Cardi B)",
-      224881759,
-      22996
-    ],
-    [
-      "You Never Know",
-      209423525,
-      28659
-    ],
-    [
-      "Really",
-      201048004,
-      31299
-    ],
-    [
-      "Kick It",
-      194704535,
-      28983
-    ],
-    [
-      "See U Later",
-      176241998,
-      33273
-    ],
-    [
-      "THE GIRLS - BLACKPINK THE GAME OST",
-      169863144,
-      31032
-    ],
-    [
-      "The Happiest Girl",
-      168421585,
-      30565
-    ],
-    [
-      "Ready For Love",
-      154067008,
-      28535
-    ],
-    [
-      "Yeah Yeah Yeah",
-      150192886,
-      22133
-    ],
-    [
-      "Hope Not",
-      143561987,
-      20526
-    ],
-    [
-      "GO",
-      110672276,
-      138808
-    ],
-    [
-      "BOOMBAYAH - Japanese Version",
-      100654080,
-      9112
-    ],
-    [
-      "DDU-DU DDU-DU - Remix",
-      95702296,
-      11106
-    ],
-    [
-      "DDU-DU DDU-DU - Japanese Version",
-      82081157,
-      8888
-    ],
-    [
-      "WHISTLE - Acoustic Ver.",
-      81692843,
-      10862
-    ],
-    [
-      "SO HOT - THEBLACKLABEL REMIX BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      80381895,
-      10389
-    ],
-    [
-      "AS IF ITâS YOUR LAST - Japanese Version",
-      57191620,
-      12477
-    ],
-    [
-      "Champion",
-      55181118,
-      69549
-    ],
-    [
-      "FOREVER YOUNG - Japanese Version",
-      47058246,
-      5148
-    ],
-    [
-      "WHISTLE - Japanese Version",
-      46512879,
-      3358
-    ],
-    [
-      "PLAYING WITH FIRE - Japanese Version",
-      44426781,
-      3923
-    ],
-    [
-      "DDU-DU DDU-DU - Live",
-      43180556,
-      4370
-    ],
-    [
-      "SEE U LATER - Japanese Version",
-      40196264,
-      4325
-    ],
-    [
-      "Me and my",
-      39068616,
+      429468197,
       49605
     ],
     [
-      "REALLY - Japanese Version",
-      38743494,
-      4322
+      "Don't Know What To Do",
+      372473034,
+      74937
     ],
     [
-      "STAY - Japanese Version",
-      38316600,
-      2848
+      "Tally",
+      348410560,
+      49833
     ],
     [
-      "KILL THIS LOVE - JP Ver.",
-      37965921,
-      1914
+      "Love To Hate Me",
+      297340049,
+      55621
     ],
     [
-      "Kiss and Make Up - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      33894685,
-      8690
+      "STAY",
+      291741929,
+      62506
     ],
     [
-      "Fxxxboy",
-      27831777,
-      28897
+      "Crazy Over You",
+      285335297,
+      45694
     ],
     [
-      "LET IT BEã YOU&Iã ONLY LOOK AT ME / ROSÃ - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME",
-      25166238,
-      2862
+      "Hard to Love",
+      276770010,
+      46677
     ],
     [
-      "Pretty Savage - JP Ver.",
-      20476448,
-      959
+      "Bet You Wanna (feat. Cardi B)",
+      224908610,
+      26851
     ],
     [
-      "éªã®è¯ / JISOO - LIVE BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      15244073,
-      1990
+      "You Never Know",
+      209453770,
+      30245
     ],
     [
-      "DDU-DU DDU-DU - Remix -JP Ver.-",
-      14242278,
-      1040
+      "Really",
+      201081425,
+      33421
     ],
     [
-      "Pretty Savage - Live",
-      12915884,
-      2145
+      "Kick It",
+      194733684,
+      29149
     ],
     [
-      "YOU & I + ONLY LOOK AT ME - Live",
-      11509511,
-      1675
+      "See U Later",
+      176274331,
+      32333
     ],
     [
-      "How You Like That - JP Ver.",
-      11339753,
-      3928
+      "THE GIRLS - BLACKPINK THE GAME OST",
+      169894335,
+      31191
     ],
     [
-      "Crazy Over You - Live",
-      11229403,
-      1745
+      "The Happiest Girl",
+      168452264,
+      30679
+    ],
+    [
+      "Ready For Love",
+      154097082,
+      30074
+    ],
+    [
+      "Yeah Yeah Yeah",
+      150216379,
+      23493
+    ],
+    [
+      "Hope Not",
+      143583094,
+      21107
+    ],
+    [
+      "GO",
+      110813110,
+      140834
+    ],
+    [
+      "BOOMBAYAH - Japanese Version",
+      100663985,
+      9905
+    ],
+    [
+      "DDU-DU DDU-DU - Remix",
+      95713883,
+      11587
+    ],
+    [
+      "DDU-DU DDU-DU - Japanese Version",
+      82090400,
+      9243
+    ],
+    [
+      "WHISTLE - Acoustic Ver.",
+      81704723,
+      11880
+    ],
+    [
+      "SO HOT - THEBLACKLABEL REMIX BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
+      80392662,
+      10767
+    ],
+    [
+      "AS IF ITâS YOUR LAST - Japanese Version",
+      57206141,
+      14521
+    ],
+    [
+      "Champion",
+      55253802,
+      72684
+    ],
+    [
+      "FOREVER YOUNG - Japanese Version",
+      47063649,
+      5403
+    ],
+    [
+      "WHISTLE - Japanese Version",
+      46516414,
+      3535
+    ],
+    [
+      "PLAYING WITH FIRE - Japanese Version",
+      44431044,
+      4263
     ],
     [
       "DDU-DU DDU-DU - Live",
-      11021668,
-      1902
+      43185243,
+      4687
+    ],
+    [
+      "SEE U LATER - Japanese Version",
+      40201014,
+      4750
+    ],
+    [
+      "Me and my",
+      39117855,
+      49239
+    ],
+    [
+      "REALLY - Japanese Version",
+      38748191,
+      4697
+    ],
+    [
+      "STAY - Japanese Version",
+      38319855,
+      3255
+    ],
+    [
+      "KILL THIS LOVE - JP Ver.",
+      37967866,
+      1945
+    ],
+    [
+      "Kiss and Make Up - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
+      33903621,
+      8936
+    ],
+    [
+      "Fxxxboy",
+      27861395,
+      29618
+    ],
+    [
+      "LET IT BEã YOU&Iã ONLY LOOK AT ME / ROSÃ - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME",
+      25169441,
+      3203
+    ],
+    [
+      "Pretty Savage - JP Ver.",
+      20477498,
+      1050
+    ],
+    [
+      "éªã®è¯ / JISOO - LIVE BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
+      15246084,
+      2011
+    ],
+    [
+      "DDU-DU DDU-DU - Remix -JP Ver.-",
+      14243412,
+      1134
+    ],
+    [
+      "Pretty Savage - Live",
+      12918291,
+      2407
+    ],
+    [
+      "YOU & I + ONLY LOOK AT ME - Live",
+      11511263,
+      1752
+    ],
+    [
+      "How You Like That - JP Ver.",
+      11343744,
+      3991
+    ],
+    [
+      "Crazy Over You - Live",
+      11231104,
+      1701
+    ],
+    [
+      "DDU-DU DDU-DU - Live",
+      11023768,
+      2100
     ],
     [
       "Sour Candy (with BLACKPINK) - Shygirl & Mura Masa Remix",
-      9631595,
-      892
+      9632511,
+      916
     ],
     [
       "Love To Hate Me + You Never Know - Live",
-      9133422,
-      1632
+      9135124,
+      1702
     ],
     [
       "PLAYING WITH FIRE - Live",
-      8876950,
-      1685
+      8878708,
+      1758
     ],
     [
       "Don't Know What To Do - Live",
-      8838500,
-      1396
+      8839848,
+      1348
     ],
     [
       "DDU-DU DDU-DU - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      8695462,
-      532
+      8696004,
+      542
     ],
     [
       "WHISTLE - Acoustic Ver.ãJapanese Version",
-      7909090,
-      425
+      7909510,
+      420
     ],
     [
       "Forever Young - Live",
-      7772132,
-      844
+      7772996,
+      864
     ],
     [
       "BOOMBAYAH - Live",
-      7061001,
-      1121
+      7062180,
+      1179
     ],
     [
       "SOLO - Live",
-      6950569,
-      609
+      6951227,
+      658
     ],
     [
       "WHISTLE - Live",
-      6940834,
-      1040
+      6941902,
+      1068
     ],
     [
       "As If It's Your Last - Live",
-      6644680,
-      1130
+      6645842,
+      1162
     ],
     [
       "Kill This Love - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      6634899,
-      667
+      6635588,
+      689
     ],
     [
       "BOOMBAYAH - Live",
-      6520535,
-      790
+      6521344,
+      809
     ],
     [
       "Forever Young - Live",
-      5859109,
-      915
+      5860129,
+      1020
     ],
     [
       "ã©ã¹ãã»ã¯ãªã¹ãã¹ ã èµ¤é¼»ã®ããã«ã¤ - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      5835395,
-      1450
+      5836957,
+      1562
     ],
     [
       "DDU DDU-DU (Remix Version) - Live",
-      5678315,
-      464
+      5678754,
+      439
     ],
     [
       "DON'T KNOW WHAT TO DO - JP Ver.",
-      5674220,
-      761
+      5675124,
+      904
     ],
     [
       "FOREVER YOUNG - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      5582822,
-      565
+      5583417,
+      595
     ],
     [
       "PLAYING WITH FIRE - Live",
-      5483039,
-      651
+      5483686,
+      647
     ],
     [
       "STAY (Remix Version) - Live",
-      5376993,
-      393
+      5377366,
+      373
     ],
     [
       "WHISTLE (Remix Version) - Live",
-      5352202,
-      565
+      5352800,
+      598
     ],
     [
       "Really (Reggae Version) - Live",
-      5320855,
-      414
+      5321267,
+      412
     ],
     [
       "As If It's Your Last - Live",
-      5261695,
-      538
+      5262265,
+      570
     ],
     [
       "BOOMBAYAH - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      5061586,
-      597
+      5062228,
+      642
     ],
     [
       "STAY - Live",
-      4651347,
-      534
+      4651932,
+      585
     ],
     [
       "WHISTLE - Live",
-      4618485,
-      354
+      4618816,
+      331
     ],
     [
       "Donât Know What To Do - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      4581654,
-      302
+      4581988,
+      334
     ],
     [
       "WHISTLE - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      4565426,
-      485
+      4566024,
+      598
     ],
     [
       "STAY - Remix / JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      4395925,
-      343
+      4396294,
+      369
     ],
     [
       "You Never Know - JP Ver.",
-      4260981,
-      580
+      4261546,
+      565
     ],
     [
       "KICK IT - JP Ver.",
-      4220492,
-      1010
+      4221612,
+      1120
     ],
     [
       "HOPE NOT - JP Ver.",
-      4208961,
-      597
+      4209702,
+      741
     ],
     [
       "DDU-DU DDU-DU - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      4094166,
-      288
+      4094520,
+      354
     ],
     [
       "See U Later - Live",
-      4033059,
-      352
+      4033444,
+      385
     ],
     [
       "AS IF ITâS YOUR LAST - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      4006833,
-      479
+      4007383,
+      550
     ],
     [
       "Kiss and Make Up (Remix) [Mixed]",
-      3877274,
-      183
+      3877445,
+      171
     ],
     [
       "REALLY - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      3675664,
-      287
+      3675964,
+      300
     ],
     [
       "PLAYING WITH FIRE - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      3663872,
-      298
+      3664223,
+      351
     ],
     [
       "Kick It - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      3538454,
-      251
+      3538743,
+      289
     ],
     [
       "SEE U LATER - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-      3082258,
-      236
+      3082527,
+      269
     ],
     [
       "BOOMBAYAH - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      3023220,
-      265
+      3023488,
+      268
     ],
     [
       "FOREVER YOUNG - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      3005729,
-      232
+      3005987,
+      258
     ],
     [
       "WHISTLE - Acoustic Ver. BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2821812,
-      252
+      2822060,
+      248
     ],
     [
       "STAY - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2760568,
-      255
+      2760812,
+      244
     ],
     [
       "AS IF ITâS YOUR LAST - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2571867,
-      319
+      2572193,
+      326
     ],
     [
       "PLAYING WITH FIRE - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2410890,
-      222
+      2411134,
+      244
     ],
     [
       "REALLY - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2223771,
-      224
+      2224013,
+      242
     ],
     [
       "SEE U LATER - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      2100361,
-      179
+      2100563,
+      202
     ]
   ],
-  "albumsDate": "2026-11-03",
+  "albumsDate": "2026-11-04",
   "albums": [
     [
       "THE ALBUM",
-      4375601721,
-      703697
+      4376322494,
+      720773
     ],
     [
       "BORN PINK",
-      3555792719,
-      663039
+      3556475001,
+      682282
     ],
     [
       "BLACKPINK 2021 'THE SHOW' LIVE",
-      3250563890,
-      525395
+      3251096804,
+      532914
     ],
     [
       "THE ALBUM (JP Ver.)",
-      2295758271,
-      348087
+      2296121531,
+      363260
     ],
     [
       "DEADLINE",
-      950892203,
-      791621
+      951698204,
+      806001
     ],
     [
       "Dua Lipa (Complete Edition)",
-      788845425,
-      128767
+      788975969,
+      130544
     ],
     [
       "BLACKPINK IN YOUR AREA (Japanese Version)",
-      495181121,
-      54401
+      495240693,
+      59572
     ],
     [
       "BLACKPINK (Japanese Version)",
-      295011050,
-      32143
+      295046949,
+      35899
     ],
     [
       "BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-      185534670,
-      27617
+      185563535,
+      28865
     ],
     [
       "BLACKPINK 2018 TOUR 'IN YOUR AREA' SEOUL (Live)",
-      121709293,
-      12553
+      121722403,
+      13110
     ],
     [
       "KILL THIS LOVE (JP Ver.)",
-      66311872,
-      5322
+      66317716,
+      5844
     ],
     [
       "BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME- (Live)",
-      57484855,
-      5042
+      57490383,
+      5528
     ]
   ],
-  "chartsDate": "2026-11-02",
+  "chartsDate": "2026-11-03",
   "charts": [],
   "sourceLinks": {
     "kworbSongs": "https://kworb.net/spotify/artist/41MozSoPIsD1dJM0CLPjZF_songs.html",

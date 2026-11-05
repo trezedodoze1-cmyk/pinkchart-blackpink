@@ -537,5 +537,27 @@
     "streams": 14629,
     "date": "2026-11-02",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 76,
+    "streams": 20132,
+    "date": "2026-11-03",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "lisa",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "Tarantino",
+    "position": 157,
+    "streams": 14332,
+    "date": "2026-11-03",
+    "source": "Kworb"
   }
 ]
