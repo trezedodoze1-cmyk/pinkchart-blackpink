@@ -4,648 +4,648 @@
     "artistId": "41MozSoPIsD1dJM0CLPjZF",
     "metrics": {
       "streams": {
-        "value": 18011223797,
-        "date": "2026-11-07",
+        "value": 18015074113,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "dailyStreams": {
-        "value": 3897411,
-        "date": "2026-11-07",
+        "value": 3850316,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 18263031,
-        "date": "2026-11-07",
+        "value": 18192759,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
-        "value": 61497596,
-        "date": "2026-11-07",
+        "value": 61507761,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "tracks": {
         "value": 109,
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       }
     },
-    "songsDate": "2026-11-07",
+    "songsDate": "2026-11-08",
     "songs": [
       [
         "How You Like That",
-        1304272231,
-        207849
+        1304486102,
+        213871
       ],
       [
         "Kill This Love",
-        1086345584,
-        150537
+        1086498432,
+        152848
       ],
       [
         "Pink Venom",
-        1047094462,
-        220726
+        1047318729,
+        224267
       ],
       [
         "Shut Down",
-        921834634,
-        185322
+        922020201,
+        185567
       ],
       [
         "DDU-DU DDU-DU",
-        900216935,
-        172406
+        900394369,
+        177434
       ],
       [
         "As If It's Your Last",
-        829045157,
-        231609
+        829279024,
+        233867
       ],
       [
         "Kiss And Make Up",
-        789341013,
-        121366
-      ],
-      [
-        "Lovesick Girls",
-        773491103,
-        158668
-      ],
-      [
-        "BOOMBAYAH",
-        738084777,
-        179828
-      ],
-      [
-        "JUMP",
-        720175779,
-        513689
-      ],
-      [
-        "Ice Cream (with Selena Gomez)",
-        679675111,
-        78890
-      ],
-      [
-        "Pretty Savage",
-        603519437,
+        789453633,
         112620
       ],
       [
+        "Lovesick Girls",
+        773647485,
+        156382
+      ],
+      [
+        "BOOMBAYAH",
+        738269826,
+        185049
+      ],
+      [
+        "JUMP",
+        720687851,
+        512072
+      ],
+      [
+        "Ice Cream (with Selena Gomez)",
+        679754223,
+        79112
+      ],
+      [
+        "Pretty Savage",
+        603628842,
+        109405
+      ],
+      [
         "PLAYING WITH FIRE",
-        576106039,
-        150394
+        576250287,
+        144248
       ],
       [
         "WHISTLE",
-        513961239,
-        119686
+        514076674,
+        115435
       ],
       [
         "Typa Girl",
-        491063760,
-        82625
+        491142306,
+        78546
       ],
       [
         "Forever Young",
-        456578440,
-        100540
+        456672847,
+        94407
       ],
       [
         "Sour Candy (with BLACKPINK)",
-        429617446,
-        49992
+        429665708,
+        48262
       ],
       [
         "Don't Know What To Do",
-        372685025,
-        69401
+        372749478,
+        64453
       ],
       [
         "Tally",
-        348578562,
-        55696
+        348630916,
+        52354
       ],
       [
         "Love To Hate Me",
-        297501984,
-        54303
+        297553861,
+        51877
       ],
       [
         "STAY",
-        291958202,
-        73642
+        292027343,
+        69141
       ],
       [
         "Crazy Over You",
-        285464542,
-        42999
+        285505675,
+        41133
       ],
       [
         "Hard to Love",
-        276901136,
-        43215
+        276942105,
+        40969
       ],
       [
         "Bet You Wanna (feat. Cardi B)",
-        224982660,
-        24969
+        225006823,
+        24163
       ],
       [
         "You Never Know",
-        209544893,
-        29950
+        209573761,
+        28868
       ],
       [
         "Really",
-        201179623,
-        32325
+        201209704,
+        30081
       ],
       [
         "Kick It",
-        194819239,
-        27803
+        194845364,
+        26125
       ],
       [
         "See U Later",
-        176375393,
-        33684
+        176407460,
+        32067
       ],
       [
         "THE GIRLS - BLACKPINK THE GAME OST",
-        169986798,
-        31208
+        170017708,
+        30910
       ],
       [
         "The Happiest Girl",
-        168542169,
-        30125
+        168571045,
+        28876
       ],
       [
         "Ready For Love",
-        154187997,
-        30552
+        154218010,
+        30013
       ],
       [
         "Yeah Yeah Yeah",
-        150285899,
-        23067
+        150308431,
+        22532
       ],
       [
         "Hope Not",
-        143645810,
-        20370
+        143665739,
+        19929
       ],
       [
         "GO",
-        111219195,
-        133471
+        111350798,
+        131603
       ],
       [
         "BOOMBAYAH - Japanese Version",
-        100693581,
-        9930
+        100703308,
+        9727
       ],
       [
         "DDU-DU DDU-DU - Remix",
-        95748702,
-        11622
+        95760097,
+        11395
       ],
       [
         "DDU-DU DDU-DU - Japanese Version",
-        82117580,
-        9104
+        82126610,
+        9030
       ],
       [
         "WHISTLE - Acoustic Ver.",
-        81739164,
-        11272
+        81750438,
+        11274
       ],
       [
         "SO HOT - THEBLACKLABEL REMIX BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        80422028,
-        9626
+        80431107,
+        9079
       ],
       [
         "AS IF ITâS YOUR LAST - Japanese Version",
-        57246253,
-        13064
+        57259741,
+        13488
       ],
       [
         "Champion",
-        55458689,
-        67440
+        55526317,
+        67628
       ],
       [
         "FOREVER YOUNG - Japanese Version",
-        47080105,
-        5375
+        47085458,
+        5353
       ],
       [
         "WHISTLE - Japanese Version",
-        46526451,
-        3338
+        46529917,
+        3466
       ],
       [
         "PLAYING WITH FIRE - Japanese Version",
-        44443740,
-        4158
+        44447848,
+        4108
       ],
       [
         "DDU-DU DDU-DU - Live",
-        43199602,
-        4837
+        43204345,
+        4743
       ],
       [
         "SEE U LATER - Japanese Version",
-        40214464,
-        4567
+        40219112,
+        4648
       ],
       [
         "Me and my",
-        39268466,
-        50260
+        39316812,
+        48346
       ],
       [
         "REALLY - Japanese Version",
-        38762413,
-        4680
+        38767074,
+        4661
       ],
       [
         "STAY - Japanese Version",
-        38329239,
+        38332244,
         3005
       ],
       [
         "KILL THIS LOVE - JP Ver.",
-        37973916,
-        1981
+        37975888,
+        1972
       ],
       [
         "Kiss and Make Up - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        33932072,
-        9777
+        33941933,
+        9861
       ],
       [
         "Fxxxboy",
-        27950641,
-        29630
+        27980095,
+        29454
       ],
       [
         "LET IT BEã YOU&Iã ONLY LOOK AT ME / ROSÃ - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME",
-        25178591,
-        3028
+        25181496,
+        2905
       ],
       [
         "Pretty Savage - JP Ver.",
-        20480446,
-        1000
+        20481449,
+        1003
       ],
       [
         "éªã®è¯ / JISOO - LIVE BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        15252426,
-        2643
+        15254508,
+        2082
       ],
       [
         "DDU-DU DDU-DU - Remix -JP Ver.-",
-        14246643,
-        1019
+        14247705,
+        1062
       ],
       [
         "Pretty Savage - Live",
-        12925874,
-        2621
+        12928463,
+        2589
       ],
       [
         "YOU & I + ONLY LOOK AT ME - Live",
-        11517124,
-        1939
+        11518960,
+        1836
       ],
       [
         "How You Like That - JP Ver.",
-        11355096,
-        3754
+        11359527,
+        4431
       ],
       [
         "Crazy Over You - Live",
-        11236039,
-        1684
+        11237668,
+        1629
       ],
       [
         "DDU-DU DDU-DU - Live",
-        11030234,
-        2195
+        11032357,
+        2123
       ],
       [
         "Sour Candy (with BLACKPINK) - Shygirl & Mura Masa Remix",
-        9635630,
-        1099
+        9636623,
+        993
       ],
       [
         "Love To Hate Me + You Never Know - Live",
-        9140277,
-        1743
+        9141991,
+        1714
       ],
       [
         "PLAYING WITH FIRE - Live",
-        8884133,
-        1764
+        8885992,
+        1859
       ],
       [
         "Don't Know What To Do - Live",
-        8844054,
-        1297
+        8845391,
+        1337
       ],
       [
         "DDU-DU DDU-DU - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        8697594,
-        528
+        8698103,
+        509
       ],
       [
         "WHISTLE - Acoustic Ver.ãJapanese Version",
-        7910789,
-        411
+        7911225,
+        436
       ],
       [
         "Forever Young - Live",
-        7775908,
-        961
+        7776916,
+        1008
       ],
       [
         "BOOMBAYAH - Live",
-        7065773,
-        1158
+        7066900,
+        1127
       ],
       [
         "SOLO - Live",
-        6953425,
-        697
+        6954146,
+        721
       ],
       [
         "WHISTLE - Live",
-        6945294,
-        1083
+        6946373,
+        1079
       ],
       [
         "As If It's Your Last - Live",
-        6649379,
-        1118
+        6650499,
+        1120
       ],
       [
         "Kill This Love - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        6637879,
-        797
+        6638681,
+        802
       ],
       [
         "BOOMBAYAH - Live",
-        6524008,
-        910
+        6524945,
+        937
       ],
       [
         "Forever Young - Live",
-        5863362,
-        1092
+        5864439,
+        1077
       ],
       [
         "ã©ã¹ãã»ã¯ãªã¹ãã¹ ã èµ¤é¼»ã®ããã«ã¤ - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        5841753,
-        1538
+        5843454,
+        1701
       ],
       [
         "DDU DDU-DU (Remix Version) - Live",
-        5680183,
-        482
+        5680663,
+        480
       ],
       [
         "DON'T KNOW WHAT TO DO - JP Ver.",
-        5677731,
-        904
+        5678597,
+        866
       ],
       [
         "FOREVER YOUNG - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        5585245,
-        616
+        5585883,
+        638
       ],
       [
         "PLAYING WITH FIRE - Live",
-        5485819,
-        689
+        5486477,
+        658
       ],
       [
         "STAY (Remix Version) - Live",
-        5378742,
-        424
+        5379105,
+        363
       ],
       [
         "WHISTLE (Remix Version) - Live",
-        5354650,
-        593
+        5355299,
+        649
       ],
       [
         "Really (Reggae Version) - Live",
-        5322536,
-        398
+        5322959,
+        423
       ],
       [
         "As If It's Your Last - Live",
-        5263938,
-        522
+        5264498,
+        560
       ],
       [
         "BOOMBAYAH - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        5064245,
-        684
+        5064915,
+        670
       ],
       [
         "STAY - Live",
-        4653959,
-        729
+        4654677,
+        718
       ],
       [
         "WHISTLE - Live",
-        4620004,
-        389
+        4620390,
+        386
       ],
       [
         "Donât Know What To Do - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        4583055,
-        347
+        4583418,
+        363
       ],
       [
         "WHISTLE - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        4567584,
-        537
+        4568101,
+        517
       ],
       [
         "STAY - Remix / JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        4397505,
-        389
+        4397867,
+        362
       ],
       [
         "You Never Know - JP Ver.",
-        4263143,
-        501
+        4263668,
+        525
       ],
       [
         "KICK IT - JP Ver.",
-        4224414,
-        793
+        4225325,
+        911
       ],
       [
         "HOPE NOT - JP Ver.",
-        4211430,
-        550
+        4212031,
+        601
       ],
       [
         "DDU-DU DDU-DU - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        4095561,
-        344
+        4095992,
+        431
       ],
       [
         "See U Later - Live",
-        4034658,
-        367
+        4035061,
+        403
       ],
       [
         "AS IF ITâS YOUR LAST - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        4008819,
-        476
+        4009355,
+        536
       ],
       [
         "Kiss and Make Up (Remix) [Mixed]",
-        3877982,
-        178
+        3878132,
+        150
       ],
       [
         "REALLY - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        3676891,
-        304
+        3677217,
+        326
       ],
       [
         "PLAYING WITH FIRE - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        3665281,
-        361
+        3665606,
+        325
       ],
       [
         "Kick It - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        3539519,
-        249
+        3539772,
+        253
       ],
       [
         "SEE U LATER - JP Ver./ BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME-",
-        3083291,
-        274
+        3083548,
+        257
       ],
       [
         "BOOMBAYAH - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        3024337,
-        274
+        3024649,
+        312
       ],
       [
         "FOREVER YOUNG - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        3006821,
-        276
+        3007102,
+        281
       ],
       [
         "WHISTLE - Acoustic Ver. BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2822872,
-        276
+        2823159,
+        287
       ],
       [
         "STAY - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2761595,
+        2761842,
         247
       ],
       [
         "AS IF ITâS YOUR LAST - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2573073,
-        294
+        2573384,
+        311
       ],
       [
         "PLAYING WITH FIRE - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2411848,
-        226
+        2412102,
+        254
       ],
       [
         "REALLY - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2224779,
-        255
+        2225039,
+        260
       ],
       [
         "SEE U LATER - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        2101176,
-        191
+        2101365,
+        189
       ]
     ],
-    "albumsDate": "2026-11-07",
+    "albumsDate": "2026-11-08",
     "albums": [
       [
         "THE ALBUM",
-        4378451961,
-        710248
+        4379156772,
+        704811
       ],
       [
         "BORN PINK",
-        3558488619,
-        671328
+        3559151743,
+        663124
       ],
       [
         "BLACKPINK 2021 'THE SHOW' LIVE",
-        3252693337,
-        532809
+        3253232092,
+        538755
       ],
       [
         "THE ALBUM (JP Ver.)",
-        2297214085,
-        365084
+        2297572711,
+        358626
       ],
       [
         "DEADLINE",
-        954072770,
-        794490
+        954861873,
+        789103
       ],
       [
         "Dua Lipa (Complete Edition)",
-        789341013,
-        121366
+        789453633,
+        112620
       ],
       [
         "BLACKPINK IN YOUR AREA (Japanese Version)",
-        495413826,
-        57221
+        495471312,
+        57486
       ],
       [
         "BLACKPINK (Japanese Version)",
-        295150053,
-        33906
+        295184283,
+        34230
       ],
       [
         "BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        185648932,
-        28995
+        185677132,
+        28200
       ],
       [
         "BLACKPINK 2018 TOUR 'IN YOUR AREA' SEOUL (Live)",
-        121764556,
-        13937
+        121778441,
+        13885
       ],
       [
         "KILL THIS LOVE (JP Ver.)",
-        66334134,
-        5247
+        66339546,
+        5412
       ],
       [
         "BLACKPINK 2019-2020 WORLD TOUR IN YOUR AREA -TOKYO DOME- (Live)",
-        57506908,
-        5562
+        57512466,
+        5558
       ]
     ],
-    "chartsDate": "2026-11-06",
+    "chartsDate": "2026-11-07",
     "charts": [],
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/41MozSoPIsD1dJM0CLPjZF_songs.html",
@@ -661,122 +661,122 @@
     "artistId": "250b0Wlc5Vk0CoUsaCY84M",
     "metrics": {
       "streams": {
-        "value": 8938675107,
-        "date": "2026-11-07",
+        "value": 8945723136,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "dailyStreams": {
-        "value": 7424605,
-        "date": "2026-11-07",
+        "value": 7104124,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "tracks": {
         "value": 43,
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 49068234,
-        "date": "2026-11-07",
+        "value": 49237176,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
-        "value": 17032522,
-        "date": "2026-11-07",
+        "value": 17043035,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
-    "songsDate": "2026-11-07",
+    "songsDate": "2026-11-08",
     "songs": [
       [
         "One Of The Girls (with JENNIE, Lily Rose Depp)",
-        2947440554,
-        2084166
+        2949444009,
+        2003455
       ],
       [
         "like JENNIE",
-        976596163,
-        603925
+        977188643,
+        592480
       ],
       [
         "SOLO",
-        806294673,
-        130768
+        806422356,
+        127683
       ],
       [
         "Mantra",
-        596020666,
-        255102
+        596267175,
+        246509
       ],
       [
         "Dracula (with JENNIE)",
-        589769914,
-        1907449
+        591619420,
+        1849506
       ],
       [
         "ExtraL (feat. Doechii)",
-        361545238,
-        184181
+        361718252,
+        173014
       ],
       [
         "You & Me",
-        360467541,
-        101395
+        360570133,
+        102592
       ],
       [
         "SPOT!",
-        314135048,
-        112845
+        314249037,
+        113989
       ],
       [
         "Love Hangover (feat. Dominic Fike)",
-        254586360,
-        118206
+        254693897,
+        107537
       ],
       [
         "Handlebars (feat. Dua Lipa)",
-        234440937,
-        158304
+        234589672,
+        148735
       ],
       [
         "Seoul City",
-        223376257,
-        227633
+        223592170,
+        215913
       ],
       [
         "ZEN",
-        119032110,
-        92938
+        119118049,
+        85939
       ],
       [
         "You & Me (Coachella ver.)",
-        118839294,
-        30692
+        118867871,
+        28577
       ],
       [
         "with the IE (way up)",
-        115465316,
-        82814
+        115543601,
+        78285
       ],
       [
         "Damn Right (feat. Childish Gambino & Kali Uchis)",
-        107326020,
-        71899
+        107393680,
+        67660
       ],
       [
         "start a war",
-        86526018,
-        61288
+        86583983,
+        57965
       ],
       [
         "Less than a Lover",
-        85468493,
-        340770
+        85777190,
+        308697
       ],
       [
         "Black (Feat. JENNIE of BLACKPINK)",
@@ -785,73 +785,73 @@
       ],
       [
         "Filter",
-        53125773,
-        35040
+        53158930,
+        33157
       ],
       [
         "Starlight",
-        51617140,
-        37492
+        51651873,
+        34733
       ],
       [
         "One Of The Girls - Sped Up",
-        50353791,
-        19316
+        50373252,
+        19461
       ],
       [
         "twin",
-        49987255,
-        32299
+        50017806,
+        30551
       ],
       [
         "SOLO - Live",
-        43843935,
-        11472
+        43856056,
+        12121
       ],
       [
         "FALLEN ANGEL",
-        39006657,
-        269679
+        39253272,
+        246615
       ],
       [
         "Intro : JANE with FKJ",
-        38116273,
-        22623
+        38137871,
+        21598
       ],
       [
         "F.T.S.",
-        37099305,
-        22173
+        37119953,
+        20648
       ],
       [
         "Slow Motion",
-        34914528,
-        13780
+        34927532,
+        13004
       ],
       [
         "like JENNIE - Extended Remix",
-        28806932,
-        68563
+        28870298,
+        63366
       ],
       [
         "HEAVEN",
-        26820662,
-        174068
+        26971870,
+        151208
       ],
       [
         "One Of The Girls - Slowed",
-        15032984,
-        8442
+        15041140,
+        8156
       ],
       [
         "SOLO - BLACKPINK ARENA TOUR 2018 \"SPECIAL FINAL IN KYOCERA DOME OSAKA\"",
-        14674611,
-        4078
+        14678824,
+        4213
       ],
       [
         "like JENNIE - Peggy Gou Remix",
-        14286552,
-        7077
+        14293424,
+        6872
       ],
       [
         "Special",
@@ -860,80 +860,80 @@
       ],
       [
         "like JENNIE - EDM Remix",
-        12516001,
-        14481
+        12530505,
+        14504
       ],
       [
         "One Of The Girls - Instrumental",
-        8146593,
-        6407
+        8152817,
+        6224
       ],
       [
         "ExtraL - Just JENNIE",
-        7062769,
-        11988
+        7073737,
+        10968
       ],
       [
         "Damn Right - Just JENNIE",
-        6925315,
-        11703
+        6935696,
+        10381
       ],
       [
         "One Of The Girls - A Cappella",
-        5643533,
-        4273
+        5647706,
+        4173
       ],
       [
         "Handlebars - Just JENNIE",
-        5316941,
-        12493
+        5328862,
+        11921
       ],
       [
         "Dracula (with JENNIE) - Boys Noize Disko Version",
-        4061730,
-        9462
+        4070442,
+        8712
       ],
       [
         "Love Hangover - Just JENNIE",
-        3692765,
-        5833
+        3698148,
+        5383
       ],
       [
         "like JENNIE - Peggy Gou Remix - EXTENDED MIX",
-        822216,
-        346
+        822604,
+        388
       ],
       [
         "Dracula (with JENNIE) - Instrumental",
-        605067,
-        1047
+        606203,
+        1136
       ]
     ],
-    "albumsDate": "2026-11-07",
+    "albumsDate": "2026-11-08",
     "albums": [
       [
         "Ruby (The Complete Collection)",
-        3369181554,
-        2130978
+        3371212801,
+        2031247
       ],
       [
         "Ruby",
-        3304860831,
-        2005917
+        3306775555,
+        1914724
       ],
       [
         "Ruby",
-        3267761526,
-        1983744
+        3269655602,
+        1894076
       ],
       [
         "Fallen Angel",
-        151295812,
-        784517
+        152002332,
+        706520
       ]
     ],
     "charts": [],
-    "chartsDate": "2026-11-06",
+    "chartsDate": "2026-11-07",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/250b0Wlc5Vk0CoUsaCY84M_songs.html",
       "kworbAlbums": "https://kworb.net/spotify/artist/250b0Wlc5Vk0CoUsaCY84M_albums.html",
@@ -947,72 +947,67 @@
     "artistId": "5L1lO4eRHmJ7a0Q6csE5cT",
     "metrics": {
       "streams": {
-        "value": 5772849067,
-        "date": "2026-11-07",
+        "value": 5777400229,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "dailyStreams": {
-        "value": 4893800,
-        "date": "2026-11-07",
+        "value": 4461411,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "tracks": {
         "value": 37,
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 19695817,
-        "date": "2026-11-07",
+        "value": 19714169,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
-        "value": 16938611,
-        "date": "2026-11-07",
+        "value": 16948283,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
-    "songsDate": "2026-11-07",
+    "songsDate": "2026-11-08",
     "songs": [
       [
         "MONEY",
-        1448411164,
-        201688
+        1448615740,
+        204576
       ],
       [
         "LALISA",
-        659682144,
-        109376
+        659790832,
+        108688
       ],
       [
         "Rockstar",
-        652750345,
-        259716
-      ],
-      [
-        "Moonlit Floor (Kiss Me)",
-        451004100,
-        139260
+        653012254,
+        261909
       ],
       [
         "New Woman (feat. ROSALÃA)",
-        429530138,
-        127597
+        429649019,
+        118881
       ],
       [
         "Born Again (feat. Doja Cat & RAYE)",
-        404300251,
-        205138
+        404493827,
+        193576
       ],
       [
         "SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)",
-        355978295,
-        53342
+        356027575,
+        49280
       ],
       [
         "Shoong! (feat. LISA of BLACKPINK)",
@@ -1021,171 +1016,156 @@
       ],
       [
         "FXCK UP THE WORLD (feat. Future)",
-        116552588,
-        44554
+        116594050,
+        41462
       ],
       [
         "Dream",
-        112204414,
-        126749
+        112324189,
+        119775
       ],
       [
         "Priceless (feat. LISA)",
-        110177950,
-        48074
+        110223543,
+        45593
       ],
       [
         "SaWaDiKa",
-        108465846,
-        1219539
+        109630436,
+        1164590
       ],
       [
         "Chill",
-        81423328,
-        40495
+        81460470,
+        37142
       ],
       [
         "Bad Angel (with LISA)",
-        69706590,
-        156554
+        69847437,
+        140847
       ],
       [
         "When I'm With You (feat. Tyla)",
-        63448034,
-        32560
+        63478714,
+        30680
       ],
       [
         "Rockstar - Extended",
-        59904949,
-        14429
+        59919140,
+        14191
       ],
       [
         "FXCK UP THE WORLD (Vixi Solo Version)",
-        57284189,
-        46810
+        57329034,
+        44845
       ],
       [
         "Lifestyle",
-        55987800,
-        47403
+        56031872,
+        44072
       ],
       [
         "Goals",
-        48774640,
-        79187
+        48851923,
+        77283
       ],
       [
         "Elastigirl",
-        44434293,
-        43109
+        44475334,
+        41041
       ],
       [
         "Thunder",
-        43898451,
-        32905
+        43928837,
+        30386
       ],
       [
         "Rapunzel (feat. Megan Thee Stallion)",
-        26507290,
-        17250
+        26522999,
+        15709
       ],
       [
         "BADGRRRL",
-        23019082,
-        21004
+        23038981,
+        19899
       ],
       [
         "Tarantino",
-        20193705,
-        928207
+        21023270,
+        829565
       ],
       [
         "Rapunzel (Kiki Solo Version)",
-        17653377,
-        13444
+        17666128,
+        12751
       ],
       [
         "Rockstar - Sped Up",
-        12486899,
-        922
-      ],
-      [
-        "Moonlit Floor (Kiss Me) - Santa Baby Remix",
-        12108851,
-        5217
+        12487846,
+        947
       ],
       [
         "Rockstar - Instrumental",
-        11585079,
-        1241
+        11586406,
+        1327
       ],
       [
         "Rockstar - Slowed Down",
-        10338830,
-        1318
+        10340060,
+        1230
       ],
       [
         "Born Again (feat. Doja Cat & RAYE) - Purple Disco Machine Remix",
-        6373499,
-        4471
-      ],
-      [
-        "Moonlit Floor (Kiss Me) - Live Performance Version",
-        6332004,
-        1943
+        6377665,
+        4166
       ],
       [
         "Cut U Off",
-        6034401,
-        225656
+        6244336,
+        209935
       ],
       [
         "Sweat",
-        5702355,
-        231634
+        5911240,
+        208885
       ],
       [
         "V12",
-        5341317,
-        185200
+        5509762,
+        168445
       ],
       [
         "Cobra",
-        4984582,
-        175216
-      ],
-      [
-        "Moonlit Floor (Kiss Me) - Instrumental",
-        2143971,
-        421
+        5152132,
+        167550
       ],
       [
         "Born Again (feat. Doja Cat & RAYE) - Purple Disco Machine Extended Mix",
-        477262,
-        692
+        477968,
+        706
       ]
     ],
-    "albumsDate": "2026-11-07",
+    "albumsDate": "2026-11-08",
     "albums": [
       [
         "Alter Ego",
-        2579997680,
-        1197994
+        2580493115,
+        495435
       ],
       [
         "Alter Ego",
-        2032637551,
-        931052
+        2032882239,
+        244688
       ],
       [
         "PRESS PLAY",
-        150722206,
-        2965452
+        153471176,
+        2748970
       ],
       [
         "Love Is Like",
-        110177950,
-        48074
+        110223543,
+        45593
       ]
     ],
     "charts": [
@@ -1201,7 +1181,7 @@
         "source": "Kworb"
       }
     ],
-    "chartsDate": "2026-11-06",
+    "chartsDate": "2026-11-07",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/5L1lO4eRHmJ7a0Q6csE5cT_songs.html",
       "kworbAlbums": "https://kworb.net/spotify/artist/5L1lO4eRHmJ7a0Q6csE5cT_albums.html",
@@ -1215,82 +1195,82 @@
     "artistId": "3eVa5w3URK5duf6eyVDbu9",
     "metrics": {
       "streams": {
-        "value": 5975509882,
-        "date": "2026-11-07",
+        "value": 5978521782,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "dailyStreams": {
-        "value": 3089502,
-        "date": "2026-11-07",
+        "value": 3056588,
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "tracks": {
         "value": 19,
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "source": "Kworb",
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 25717021,
-        "date": "2026-11-07",
+        "value": 25594259,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
-        "value": 16501582,
-        "date": "2026-11-07",
+        "value": 16507575,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       }
     },
-    "songsDate": "2026-11-07",
+    "songsDate": "2026-11-08",
     "songs": [
       [
         "APT.",
-        2700869627,
-        1227700
+        2702148916,
+        1279289
       ],
       [
         "On The Ground",
-        599996118,
-        90333
+        600088058,
+        91940
       ],
       [
         "toxic till the end",
-        496885497,
-        344798
+        497217897,
+        332400
       ],
       [
         "Gone",
-        481202059,
-        104678
+        481303541,
+        101482
       ],
       [
         "number one girl",
-        377691486,
-        274720
+        377949579,
+        258093
       ],
       [
         "Messy (From F1Â® The Movie)",
-        208241298,
-        180362
+        208419159,
+        177861
       ],
       [
         "On My Mind",
-        154869267,
-        118781
+        154975471,
+        106204
       ],
       [
         "drinks or coffee",
-        148631027,
-        75665
+        148705867,
+        74840
       ],
       [
         "stay a little longer",
-        119948921,
-        98026
+        120038666,
+        89745
       ],
       [
         "Without You (Feat. ROSE)",
@@ -1299,70 +1279,70 @@
       ],
       [
         "3am",
-        104109476,
-        72055
+        104178681,
+        69205
       ],
       [
         "two years",
-        101114154,
-        68980
+        101178160,
+        64006
       ],
       [
         "gameboy",
-        96996171,
-        51152
+        97043858,
+        47687
       ],
       [
         "too bad for us",
-        62135173,
-        37584
+        62171188,
+        36015
       ],
       [
         "dance all night",
-        61608971,
-        37807
+        61645372,
+        36401
       ],
       [
         "call it the end",
-        50789947,
-        35204
+        50820702,
+        30755
       ],
       [
         "not the same",
-        49184677,
-        25244
+        49208582,
+        23905
       ],
       [
         "Gone - Live",
-        31140090,
-        5727
+        31145473,
+        5383
       ],
       [
         "new trick",
-        23114474,
-        195998
+        23301163,
+        186689
       ]
     ],
-    "albumsDate": "2026-11-07",
+    "albumsDate": "2026-11-08",
     "albums": [
       [
         "rosie",
-        4369965127,
-        2348935
+        4372307468,
+        2342341
       ],
       [
         "^ Canciones para bailar en la cocina",
-        2700869627,
-        1227700
+        2702148916,
+        1279289
       ],
       [
         "You'll Be Alright, Kid",
-        154869267,
-        118781
+        154975471,
+        106204
       ]
     ],
     "charts": [],
-    "chartsDate": "2026-11-06",
+    "chartsDate": "2026-11-07",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/3eVa5w3URK5duf6eyVDbu9_songs.html",
       "kworbAlbums": "https://kworb.net/spotify/artist/3eVa5w3URK5duf6eyVDbu9_albums.html",
@@ -1394,14 +1374,14 @@
         "approximate": false
       },
       "monthlyListeners": {
-        "value": 6828549,
-        "date": "2026-11-07",
+        "value": 6888899,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       },
       "followers": {
-        "value": 10082820,
-        "date": "2026-11-07",
+        "value": 10090759,
+        "date": "2026-11-08",
         "source": "Metrika (Spotify)",
         "approximate": false
       }
@@ -1498,17 +1478,6 @@
         "artistKey": "jisoo",
         "country": "Coreia do Sul",
         "code": "KR",
-        "period": "daily",
-        "title": "ADDICTED",
-        "position": 156,
-        "streams": 13997,
-        "date": "2026-11-06",
-        "source": "Kworb"
-      },
-      {
-        "artistKey": "jisoo",
-        "country": "Coreia do Sul",
-        "code": "KR",
         "period": "weekly",
         "title": "ADDICTED",
         "position": 176,
@@ -1517,7 +1486,7 @@
         "source": "Kworb"
       }
     ],
-    "chartsDate": "2026-11-06",
+    "chartsDate": "2026-11-07",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/6UZ0ba50XreR4TM8u322gs_songs.html",
       "kworbAlbums": "https://kworb.net/spotify/artist/6UZ0ba50XreR4TM8u322gs_albums.html",
