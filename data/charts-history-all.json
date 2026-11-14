@@ -647,5 +647,27 @@
     "streams": 16199,
     "date": "2026-11-11",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "blackpink",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "As If It's Your Last",
+    "position": 200,
+    "streams": 12871,
+    "date": "2026-11-12",
+    "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 95,
+    "streams": 17241,
+    "date": "2026-11-12",
+    "source": "Kworb"
   }
 ]

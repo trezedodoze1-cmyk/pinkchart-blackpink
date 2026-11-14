@@ -9,5 +9,16 @@
     "date": "2026-10-10",
     "source": "Spotify Top",
     "artistKey": "blackpink"
+  },
+  {
+    "artistKey": "blackpink",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "As If It's Your Last",
+    "position": 200,
+    "streams": 12871,
+    "date": "2026-11-12",
+    "source": "Kworb"
   }
 ]
