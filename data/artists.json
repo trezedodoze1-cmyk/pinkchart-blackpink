@@ -1188,19 +1188,7 @@
         47273
       ]
     ],
-    "charts": [
-      {
-        "artistKey": "lisa",
-        "country": "Coreia do Sul",
-        "code": "KR",
-        "period": "weekly",
-        "title": "Tarantino",
-        "position": 197,
-        "streams": 91220,
-        "date": "2026-11-05",
-        "source": "Kworb"
-      }
-    ],
+    "charts": [],
     "chartsDate": "2026-11-13",
     "sourceLinks": {
       "kworbSongs": "https://kworb.net/spotify/artist/5L1lO4eRHmJ7a0Q6csE5cT_songs.html",
@@ -1503,22 +1491,22 @@
         "artistKey": "jisoo",
         "country": "Coreia do Sul",
         "code": "KR",
-        "period": "weekly",
+        "period": "daily",
         "title": "ADDICTED",
-        "position": 176,
-        "streams": 96876,
-        "date": "2026-11-05",
+        "position": 126,
+        "streams": 15665,
+        "date": "2026-11-13",
         "source": "Kworb"
       },
       {
         "artistKey": "jisoo",
         "country": "Coreia do Sul",
         "code": "KR",
-        "period": "daily",
+        "period": "weekly",
         "title": "ADDICTED",
-        "position": 126,
-        "streams": 15665,
-        "date": "2026-11-13",
+        "position": 144,
+        "streams": 103579,
+        "date": "2026-11-12",
         "source": "Kworb"
       }
     ],

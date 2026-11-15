@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-15",
   "current": {
-    "streams": 18011223797,
-    "dailyStreams": 3897411,
-    "monthlyListeners": 18263031,
-    "followers": 61497596,
+    "streams": 18037911506,
+    "dailyStreams": 4006751,
+    "monthlyListeners": 17858025,
+    "followers": 61554178,
     "tracks": 109
   },
   "change": {
-    "streams": 27292154,
-    "dailyStreams": -297463,
-    "monthlyListeners": -349683,
-    "followers": 60195
+    "streams": 26687709,
+    "dailyStreams": 109340,
+    "monthlyListeners": -405006,
+    "followers": 56582
   },
   "charts": []
 }
