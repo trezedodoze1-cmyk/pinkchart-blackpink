@@ -702,5 +702,16 @@
     "streams": 13250,
     "date": "2026-11-14",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "jisoo",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "ADDICTED",
+    "position": 178,
+    "streams": 14440,
+    "date": "2026-11-15",
+    "source": "Kworb"
   }
 ]
