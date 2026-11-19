@@ -316,6 +316,14 @@
       "monthlyListeners": 17869099,
       "followers": 61579873,
       "followersApproximate": false
+    },
+    {
+      "date": "2026-11-18",
+      "streams": 18053761863,
+      "dailyStreams": 4019563,
+      "monthlyListeners": 17881625,
+      "followers": 61586813,
+      "followersApproximate": false
     }
   ],
   "jennie": [
@@ -636,6 +644,14 @@
       "monthlyListeners": 49167974,
       "followers": 17120449,
       "followersApproximate": false
+    },
+    {
+      "date": "2026-11-18",
+      "streams": 9011265041,
+      "dailyStreams": 6645121,
+      "monthlyListeners": 49122239,
+      "followers": 17127990,
+      "followersApproximate": false
     }
   ],
   "lisa": [
@@ -952,6 +968,14 @@
       "dailyStreams": 4261976,
       "monthlyListeners": 19734208,
       "followers": 17020143,
+      "followersApproximate": false
+    },
+    {
+      "date": "2026-11-18",
+      "streams": 5820044451,
+      "dailyStreams": 4228362,
+      "monthlyListeners": 19749376,
+      "followers": 17027225,
       "followersApproximate": false
     }
   ],
@@ -1270,6 +1294,14 @@
       "monthlyListeners": 24797746,
       "followers": 16551755,
       "followersApproximate": false
+    },
+    {
+      "date": "2026-11-18",
+      "streams": 6006876893,
+      "dailyStreams": 2829860,
+      "monthlyListeners": 24688575,
+      "followers": 16555960,
+      "followersApproximate": false
     }
   ],
   "jisoo": [
@@ -1522,6 +1554,12 @@
       "dailyStreams": 1372070,
       "monthlyListeners": 7345409,
       "followers": 10150081,
+      "followersApproximate": false
+    },
+    {
+      "date": "2026-11-18",
+      "monthlyListeners": 7387845,
+      "followers": 10155505,
       "followersApproximate": false
     }
   ]
