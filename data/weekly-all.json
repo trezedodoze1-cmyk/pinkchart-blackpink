@@ -1,83 +1,83 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-22",
   "artists": {
     "blackpink": {
       "change": {
-        "streams": 26687709,
-        "dailyStreams": 109340,
-        "monthlyListeners": -405006,
-        "followers": 56582
+        "streams": 28268616,
+        "dailyStreams": -13955,
+        "monthlyListeners": 22017,
+        "followers": 56346
       },
       "current": {
-        "streams": 18037911506,
-        "dailyStreams": 4006751,
-        "monthlyListeners": 17858025,
-        "followers": 61554178,
+        "streams": 18066180122,
+        "dailyStreams": 3992796,
+        "monthlyListeners": 17880042,
+        "followers": 61610524,
         "tracks": 109
       },
       "charts": []
     },
     "jennie": {
       "change": {
-        "streams": 47182921,
-        "dailyStreams": -810695,
-        "monthlyListeners": 213926,
-        "followers": 60446
+        "streams": 51171139,
+        "dailyStreams": 265996,
+        "monthlyListeners": 215053,
+        "followers": 62547
       },
       "current": {
-        "streams": 8985858028,
-        "dailyStreams": 6613910,
-        "tracks": 43,
-        "monthlyListeners": 49282160,
-        "followers": 17092968
+        "streams": 9037029167,
+        "dailyStreams": 6879906,
+        "tracks": 45,
+        "monthlyListeners": 49497213,
+        "followers": 17155515
       },
       "charts": []
     },
     "lisa": {
       "change": {
-        "streams": 30595658,
-        "dailyStreams": -502769,
-        "monthlyListeners": -10623,
-        "followers": 55578
+        "streams": 30616602,
+        "dailyStreams": -275362,
+        "monthlyListeners": -188262,
+        "followers": 57174
       },
       "current": {
-        "streams": 5803444725,
-        "dailyStreams": 4391031,
-        "tracks": 37,
-        "monthlyListeners": 19685194,
-        "followers": 16994189
+        "streams": 5834061327,
+        "dailyStreams": 4115669,
+        "tracks": 38,
+        "monthlyListeners": 19496932,
+        "followers": 17051363
       },
       "charts": []
     },
     "rose": {
       "change": {
-        "streams": 20258100,
-        "dailyStreams": -171029,
-        "monthlyListeners": -654452,
-        "followers": 34641
+        "streams": 20038905,
+        "dailyStreams": 3106,
+        "monthlyListeners": -671663,
+        "followers": 33978
       },
       "current": {
-        "streams": 5995767982,
-        "dailyStreams": 2918473,
+        "streams": 6015806887,
+        "dailyStreams": 2921579,
         "tracks": 19,
-        "monthlyListeners": 25062569,
-        "followers": 16536223
+        "monthlyListeners": 24390906,
+        "followers": 16570201
       },
       "charts": []
     },
     "jisoo": {
       "change": {
-        "streams": 10333645,
-        "dailyStreams": 486786,
-        "monthlyListeners": 360660,
-        "followers": 46218
+        "streams": 11245725,
+        "dailyStreams": -166444,
+        "monthlyListeners": 326583,
+        "followers": 44544
       },
       "current": {
-        "streams": 1471115097,
-        "dailyStreams": 1476229,
-        "tracks": 14,
-        "monthlyListeners": 7189209,
-        "followers": 10129038
+        "streams": 1482360822,
+        "dailyStreams": 1309785,
+        "tracks": 15,
+        "monthlyListeners": 7515792,
+        "followers": 10173582
       },
       "charts": [
         {
@@ -86,9 +86,9 @@
           "code": "KR",
           "period": "weekly",
           "title": "ADDICTED",
-          "position": 144,
-          "streams": 103579,
-          "date": "2026-11-12",
+          "position": 167,
+          "streams": 99208,
+          "date": "2026-11-19",
           "source": "Kworb"
         }
       ]
