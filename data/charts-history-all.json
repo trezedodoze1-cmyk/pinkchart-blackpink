@@ -768,5 +768,16 @@
     "streams": 14427,
     "date": "2026-11-19",
     "source": "Kworb"
+  },
+  {
+    "artistKey": "blackpink",
+    "country": "Coreia do Sul",
+    "code": "KR",
+    "period": "daily",
+    "title": "As If It's Your Last",
+    "position": 143,
+    "streams": 14861,
+    "date": "2026-11-21",
+    "source": "Kworb"
   }
 ]
