@@ -360,5 +360,13 @@
     "followersApproximate": false,
     "streams": 18074223070,
     "dailyStreams": 3929848
+  },
+  {
+    "date": "2026-11-24",
+    "streams": 18078256279,
+    "dailyStreams": 4033209,
+    "monthlyListeners": 17911926,
+    "followers": 61636511,
+    "followersApproximate": false
   }
 ]
